@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
-  - 
-  - 
+  - PlayerLayer
+  - ItemLayer
+  - EnemyLayer
   - 
   - 
   - 
