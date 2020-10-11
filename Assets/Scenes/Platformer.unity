@@ -342,10 +342,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 916868970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b8a248c4972fe211ae6b23a1ea601af, type: 3}
+  m_Script: {fileID: 11500000, guid: 833fde019974f5746a1a83ef75e1dcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player_distance: 1.7
+  player_distance: 2
   speed: 10
 --- !u!212 &916868972
 SpriteRenderer:

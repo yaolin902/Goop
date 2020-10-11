@@ -10,7 +10,7 @@ public class ProjectilePlayerController : MonoBehaviour
     private float player_distance = 2f;
 
     [SerializeField]
-    private float speed = 4f;
+    private float speed = 10f;
 
     private void Start() {
         player = GameObject.FindWithTag("Player");
