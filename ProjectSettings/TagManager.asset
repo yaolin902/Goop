@@ -16,8 +16,8 @@ TagManager:
   - PlayerLayer
   - ItemLayer
   - EnemyLayer
-  - Ground
-  - OneWayPlatform
+  - 
+  - 
   - 
   - 
   - 
