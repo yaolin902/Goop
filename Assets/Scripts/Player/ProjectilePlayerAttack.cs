@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public class ProjectilePlayerAttack : MonoBehaviour
 {
     // FirePoint
     public Transform firePoint;
@@ -12,7 +12,7 @@ public class Weapon : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             Shoot();
         }
