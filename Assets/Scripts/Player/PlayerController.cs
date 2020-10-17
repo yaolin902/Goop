@@ -9,6 +9,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
+    private float attack_range = 7f;
+    [SerializeField]
+    private float attack_cooldown = 1.5f;
+
+    [SerializeField]
     private LayerMask ground_layer;
     [SerializeField]
     private LayerMask platform_layer;
@@ -18,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D ground_collider;
 
     private bool is_facing_right = true;
+    private bool is_attacking = false;
     private void Start()
     {
         player = GetComponent<Rigidbody2D>();
@@ -42,6 +48,11 @@ public class PlayerController : MonoBehaviour
         if ((move_x < 0f && is_facing_right) ||
             (move_x > 0f && !is_facing_right))
             flip();
+
+        // player straight attack
+        if (Input.GetKeyDown(KeyCode.Z)) {
+            straight_attack();
+        }
 
     }
 
@@ -68,6 +79,10 @@ public class PlayerController : MonoBehaviour
 
         // also flip projectile player direction
         projectile_player.SendMessage("flip");
+    }
+
+    private void straight_attack() {
+        
     }
     
 }

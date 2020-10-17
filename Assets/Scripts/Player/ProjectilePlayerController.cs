@@ -17,7 +17,7 @@ public class ProjectilePlayerController : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        // pathfind to player
+        // move towards to player
         if (Vector2.Distance(this.transform.position, player.transform.position) > player_distance) {
             this.transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
         }
@@ -26,4 +26,28 @@ public class ProjectilePlayerController : MonoBehaviour
     private void flip() {
         transform.localScale = new Vector2(-1 * transform.localScale.x, transform.localScale.y);
     }
+
+    /* Alyssa's projectile attack {WIP}
+    // FirePoint
+    public Transform firePoint;
+    public GameObject gaapPrefab;
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            Shoot();
+        }
+        
+    }
+
+    // Shoot
+    void Shoot()
+    {
+        // spawn
+        Instantiate(gaapPrefab, firePoint.position, firePoint.rotation);
+    }
+    */
 }
