@@ -48,6 +48,6 @@ public class EnemySpawner : MonoBehaviour
 		// Following variables determine which enemy from the
 		// spawnPool will be created and where in the spawnRadius
 		// it will be created.
-		GameObject obj = Instantiate(spawnPool[Random.Range(0, spawnPool.Length)], this.transform, true);
+		Instantiate(spawnPool[Random.Range(0, spawnPool.Length)], this.transform, true);
 	}
 }

@@ -9,9 +9,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
-    private float attack_range = 7f;
+    private float dash_attack_speed = 30f;
     [SerializeField]
-    private float attack_cooldown = 1.5f;
+    private float dash_attack_time = 0.15f;
+    // [SerializeField]
+    // private float dash_attack_cooldown = 0.7f;
+
+    private float dash_attack_timer;
 
     [SerializeField]
     private LayerMask ground_layer;
@@ -50,10 +54,10 @@ public class PlayerController : MonoBehaviour
             flip();
 
         // player straight attack
-        if (Input.GetKeyDown(KeyCode.Z)) {
+        if ((Input.GetKeyDown(KeyCode.Z) && (is_grounded() || is_platformed())) || is_attacking) {
+            is_attacking = true;
             straight_attack();
         }
-
     }
 
     // ground checks
@@ -82,7 +86,21 @@ public class PlayerController : MonoBehaviour
     }
 
     private void straight_attack() {
-        
+        if (is_attacking) {
+            if (dash_attack_timer <= 0) {
+                is_attacking = false;
+                dash_attack_timer = dash_attack_time;
+                player.velocity = Vector2.zero;
+            } else {
+                dash_attack_timer -= Time.deltaTime;
+
+                if (is_facing_right) {
+                    player.velocity = Vector2.right * dash_attack_speed;
+                } else {
+                    player.velocity = Vector2.left * dash_attack_speed;
+                }
+            }
+        }
     }
     
 }

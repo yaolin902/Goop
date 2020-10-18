@@ -453,7 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPool:
   - {fileID: 7421737110464921264, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
-  spawnRate: 5
+  spawnRate: 10
   spawnTimer: 0
   safeDistance: 2.5
 --- !u!1 &916868970
@@ -567,6 +567,8 @@ GameObject:
   - component: {fileID: 1501282359}
   - component: {fileID: 1501282360}
   - component: {fileID: 1501282358}
+  - component: {fileID: 1501282362}
+  - component: {fileID: 1501282361}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -679,6 +681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump_force: 10
   speed: 10
+  dash_attack_speed: 30
+  dash_attack_time: 0.15
   ground_layer:
     serializedVersion: 2
     m_Bits: 256
@@ -732,6 +736,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7, y: 7}
   m_EdgeRadius: 0
+--- !u!114 &1501282361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501282354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde5b538cbe340a568652192a3fb257d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!114 &1501282362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501282354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6b6ae84088c25f180573e421d9edc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
 --- !u!1001 &4306895481692230630
 PrefabInstance:
   m_ObjectHideFlags: 0
