@@ -679,7 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c939ba74cf811ff12a0861d91f4ee3c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_force: 10
+  jump_force: 8.5
   speed: 10
   dash_attack_speed: 30
   dash_attack_time: 0.15
@@ -877,6 +877,10 @@ PrefabInstance:
     - target: {fileID: 7421737110464921268, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7421737110464921269, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc376d844afa89ec797141f7b45387f3, type: 3}

@@ -10,13 +10,15 @@ public class GenericDamaging : MonoBehaviour
 {
 	[SerializeField] internal int damage = 0;
 
-	void OnCollisionEnter2D(Collision2D collision)
+	void OnTriggerEnter2D(Collider2D collision)
 	{
 		// When attached object collides with another,
 		// it calls the "takeDamage" from any script attached to.
 		// the collided object. It sends the "damage"
 		// variable to the function.
-		
-		collision.gameObject.SendMessage("takeDamage", damage);
+
+		// ground layer: 8, one way platform layer: 9
+		if (collision.gameObject.layer < 8)
+			collision.gameObject.SendMessage("takeDamage", damage);
 	}
 }
