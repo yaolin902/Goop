@@ -5,15 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float jump_force = 7f;
+    private float jump_force = 9.5f;
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
     private float dash_attack_speed = 30f;
     [SerializeField]
     private float dash_attack_time = 0.15f;
-    // [SerializeField]
-    // private float dash_attack_cooldown = 0.7f;
+    [SerializeField]
+    private float dash_attack_cooldown = 1f;
 
     private float dash_attack_timer;
 
@@ -27,12 +27,15 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D ground_collider;
 
     private bool is_facing_right = true;
-    private bool is_attacking = false;
+    [HideInInspector]
+    public bool is_attacking = false;
     private void Start()
     {
         player = GetComponent<Rigidbody2D>();
         ground_collider = GetComponent<BoxCollider2D>();
         projectile_player = GameObject.FindWithTag("Projectile Player");
+
+        dash_attack_timer = dash_attack_cooldown + dash_attack_time;
     }
     private void FixedUpdate()
     {
@@ -57,6 +60,7 @@ public class PlayerController : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.Z) && (is_grounded() || is_platformed())) || is_attacking) {
             is_attacking = true;
             straight_attack();
+
         }
     }
 
@@ -89,8 +93,11 @@ public class PlayerController : MonoBehaviour
         if (is_attacking) {
             if (dash_attack_timer <= 0) {
                 is_attacking = false;
-                dash_attack_timer = dash_attack_time;
+                dash_attack_timer = dash_attack_cooldown + dash_attack_time;
                 player.velocity = Vector2.zero;
+            } else if (dash_attack_timer <= dash_attack_cooldown) {
+                dash_attack_timer -= Time.deltaTime;
+                return;
             } else {
                 dash_attack_timer -= Time.deltaTime;
 

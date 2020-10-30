@@ -10,7 +10,7 @@ public class GenericDamaging : MonoBehaviour
 {
 	[SerializeField] internal int damage = 0;
 
-	void OnTriggerEnter2D(Collider2D collision)
+	void OnCollisionEnter2D(Collision2D collision)
 	{
 		// When attached object collides with another,
 		// it calls the "takeDamage" from any script attached to.
