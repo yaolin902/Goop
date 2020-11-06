@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float jump_force = 9.5f;
+    private float jump_force = 40f;
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator fall_down() {
         ground_collider.enabled = false;
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.3f);
         ground_collider.enabled = true;
     }
 
