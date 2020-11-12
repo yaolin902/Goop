@@ -11,6 +11,7 @@ public class ProjectilePlayerController : MonoBehaviour
 
     [SerializeField]
     private float speed = 10f;
+    private bool is_facing_right = true;
 
     private void Start() {
         player = GameObject.FindWithTag("Player");
@@ -25,12 +26,17 @@ public class ProjectilePlayerController : MonoBehaviour
 
     private void flip() {
         transform.localScale = new Vector2(-1 * transform.localScale.x, transform.localScale.y);
+        is_facing_right = !is_facing_right;
     }
 
-    /* Alyssa's projectile attack {WIP}
+    
     // FirePoint
     public Transform firePoint;
     public GameObject gaapPrefab;
+    [SerializeField]
+    private float bullet_speed = 5f;
+    [SerializeField]
+    private float bullet_despawn_radius = 10f;
 
     // Update is called once per frame
     void Update()
@@ -47,7 +53,18 @@ public class ProjectilePlayerController : MonoBehaviour
     void Shoot()
     {
         // spawn
-        Instantiate(gaapPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(gaapPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
+
+        // fire direction
+        if (is_facing_right)
+            bullet_rb.velocity = new Vector2(bullet_speed, bullet_rb.velocity.y);
+        else
+            bullet_rb.velocity = new Vector2(-bullet_speed, bullet_rb.velocity.y);
+
+        // despawn bullet
+        // if (Vector2.Distance(bullet.transform.position, this.transform.position) >= bullet_despawn_radius)
+        //     Destroy(bullet);
     }
-    */
+    
 }

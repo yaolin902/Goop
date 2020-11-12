@@ -16,7 +16,9 @@ public class GenericDamaging : MonoBehaviour
 		// it calls the "takeDamage" from any script attached to.
 		// the collided object. It sends the "damage"
 		// variable to the function.
-		
-		collision.gameObject.SendMessage("takeDamage", damage);
+
+		// ground layer: 8, one way platform layer: 9
+		if (collision.gameObject.layer < 8)
+			collision.gameObject.SendMessage("takeDamage", damage);
 	}
 }
