@@ -491,7 +491,7 @@ MonoBehaviour:
   firePoint: {fileID: 916868973}
   gaapPrefab: {fileID: 5111808482780274934, guid: db1e6cefc96fc9f72b2222a64d14538b, type: 3}
   bullet_speed: 5
-  bullet_despawn_radius: 10
+  fire_cooldown: 1.5
 --- !u!212 &916868972
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 1501282358}
   - component: {fileID: 1501282362}
   - component: {fileID: 1501282361}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -827,6 +827,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+--- !u!1001 &814350474288743630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 488486472919785447, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_Name
+      value: EnemyBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 488486472919785447, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5865
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.2867346
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076919220889825277, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
 --- !u!1001 &2207688621797611920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -836,11 +897,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2207688622515218468, guid: 0c8eafd7f326aba029325d67a31d16bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.8
+      value: 6.89
       objectReference: {fileID: 0}
     - target: {fileID: 2207688622515218468, guid: 0c8eafd7f326aba029325d67a31d16bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.91
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 2207688622515218468, guid: 0c8eafd7f326aba029325d67a31d16bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -950,7 +1011,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5111808482780274934, guid: db1e6cefc96fc9f72b2222a64d14538b, type: 3}
       propertyPath: m_Name
-      value: Bullet
+      value: PlayerBullet
       objectReference: {fileID: 0}
     - target: {fileID: 5111808482780274934, guid: db1e6cefc96fc9f72b2222a64d14538b, type: 3}
       propertyPath: m_IsActive
@@ -1016,6 +1077,10 @@ PrefabInstance:
     - target: {fileID: 7421737110464921264, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
       propertyPath: m_Name
       value: Yarnball Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7421737110464921264, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7421737110464921268, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
       propertyPath: m_LocalPosition.x
