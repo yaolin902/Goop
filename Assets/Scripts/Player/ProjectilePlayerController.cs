@@ -35,23 +35,27 @@ public class ProjectilePlayerController : MonoBehaviour
     public GameObject gaapPrefab;
     [SerializeField]
     private float bullet_speed = 5f;
+    //[SerializeField]
+    //private float bullet_despawn_radius = 10f;
     [SerializeField]
-    private float bullet_despawn_radius = 10f;
+    private float fire_cooldown = 1f;
+    private bool is_shooting = false;
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && !is_shooting)
         {
-            Shoot();
+            StartCoroutine(Shoot());
         }
         
     }
 
     // Shoot
-    void Shoot()
+    IEnumerator Shoot()
     {
+        is_shooting = true;
         // spawn
         GameObject bullet = Instantiate(gaapPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
@@ -61,10 +65,13 @@ public class ProjectilePlayerController : MonoBehaviour
             bullet_rb.velocity = new Vector2(bullet_speed, bullet_rb.velocity.y);
         else
             bullet_rb.velocity = new Vector2(-bullet_speed, bullet_rb.velocity.y);
-
+        
         // despawn bullet
         // if (Vector2.Distance(bullet.transform.position, this.transform.position) >= bullet_despawn_radius)
         //     Destroy(bullet);
+
+        yield return new WaitForSeconds(fire_cooldown);
+        is_shooting = false;
     }
     
 }
