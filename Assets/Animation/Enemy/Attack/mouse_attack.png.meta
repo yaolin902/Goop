@@ -1,0 +1,1171 @@
+fileFormatVersion: 2
+guid: 3e314a2f09a4dfddc973d51e1f064c59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4893119692996412112
+    second: mouse_attack_0
+  - first:
+      213: -4271008395409010915
+    second: mouse_attack_1
+  - first:
+      213: -8119863064694575136
+    second: mouse_attack_2
+  - first:
+      213: -4440194069756224609
+    second: mouse_attack_3
+  - first:
+      213: -7091164001238103480
+    second: mouse_attack_4
+  - first:
+      213: 5517558231989955364
+    second: mouse_attack_5
+  - first:
+      213: -86083954935074800
+    second: mouse_attack_6
+  - first:
+      213: 6961630151656398724
+    second: mouse_attack_7
+  - first:
+      213: 4982642963027045255
+    second: mouse_attack_8
+  - first:
+      213: -737029279002264028
+    second: mouse_attack_9
+  - first:
+      213: -5336103997590528960
+    second: mouse_attack_10
+  - first:
+      213: -461935256997690259
+    second: mouse_attack_11
+  - first:
+      213: 5373646608197437721
+    second: mouse_attack_12
+  - first:
+      213: -3517074871818299597
+    second: mouse_attack_13
+  - first:
+      213: -1103234072469998771
+    second: mouse_attack_14
+  - first:
+      213: 6258620211196612467
+    second: mouse_attack_15
+  - first:
+      213: -8541214952874320080
+    second: mouse_attack_16
+  - first:
+      213: -5073476121171650607
+    second: mouse_attack_17
+  - first:
+      213: -8363283242953540057
+    second: mouse_attack_18
+  - first:
+      213: 6546328476188762231
+    second: mouse_attack_19
+  - first:
+      213: -6334214318650585822
+    second: mouse_attack_20
+  - first:
+      213: 5941709118939157705
+    second: mouse_attack_21
+  - first:
+      213: 491560362181548802
+    second: mouse_attack_22
+  - first:
+      213: 1337944281675861162
+    second: mouse_attack_23
+  - first:
+      213: 7221965261877131350
+    second: mouse_attack_24
+  - first:
+      213: -6590941013653250861
+    second: mouse_attack_25
+  - first:
+      213: -6453247337206480785
+    second: mouse_attack_26
+  - first:
+      213: 3531476903502604086
+    second: mouse_attack_27
+  - first:
+      213: -8717376433946215100
+    second: mouse_attack_28
+  - first:
+      213: -2777178462297750430
+    second: mouse_attack_29
+  - first:
+      213: -1015901828725856274
+    second: mouse_attack_30
+  - first:
+      213: -3439870282170679080
+    second: mouse_attack_31
+  - first:
+      213: -8883070609443128768
+    second: mouse_attack_32
+  - first:
+      213: 4930761837057514691
+    second: mouse_attack_33
+  - first:
+      213: -8128724068055065129
+    second: mouse_attack_34
+  - first:
+      213: 7652876091903594267
+    second: mouse_attack_35
+  - first:
+      213: 3965340700243632440
+    second: mouse_attack_36
+  - first:
+      213: 8219630223791180240
+    second: mouse_attack_37
+  - first:
+      213: -1130821073033421549
+    second: mouse_attack_38
+  - first:
+      213: 4217078582563902782
+    second: mouse_attack_39
+  - first:
+      213: -2613548178017400928
+    second: mouse_attack_40
+  - first:
+      213: -5513629253787025811
+    second: mouse_attack_41
+  - first:
+      213: 9220744674300528508
+    second: mouse_attack_42
+  - first:
+      213: -8478183054623689265
+    second: mouse_attack_43
+  - first:
+      213: -7257760536116269668
+    second: mouse_attack_44
+  - first:
+      213: 272584158365555336
+    second: mouse_attack_45
+  - first:
+      213: 7546361418107114631
+    second: mouse_attack_46
+  - first:
+      213: 6739497952853566970
+    second: mouse_attack_47
+  - first:
+      213: -3607179582133631350
+    second: mouse_attack_48
+  - first:
+      213: 6053311963832297028
+    second: mouse_attack_49
+  - first:
+      213: 6113803535213200446
+    second: mouse_attack_50
+  - first:
+      213: -3937600832875678249
+    second: mouse_attack_51
+  - first:
+      213: -8231491133840187193
+    second: mouse_attack_52
+  - first:
+      213: -2831600479413501142
+    second: mouse_attack_53
+  - first:
+      213: -8017144171766339851
+    second: mouse_attack_54
+  - first:
+      213: -605578824735966766
+    second: mouse_attack_55
+  - first:
+      213: 4586126574901703239
+    second: mouse_attack_56
+  - first:
+      213: 1281311170713773444
+    second: mouse_attack_57
+  - first:
+      213: 8688962154865160521
+    second: mouse_attack_58
+  - first:
+      213: -429356616922514090
+    second: mouse_attack_59
+  - first:
+      213: 8546000705465911671
+    second: mouse_attack_60
+  - first:
+      213: 8172314029909791943
+    second: mouse_attack_61
+  - first:
+      213: 36081515336987286
+    second: mouse_attack_62
+  - first:
+      213: -7423680519173259504
+    second: mouse_attack_63
+  - first:
+      213: 5526194306442468398
+    second: mouse_attack_64
+  - first:
+      213: -5438827772810594759
+    second: mouse_attack_65
+  - first:
+      213: 8362060912642536026
+    second: mouse_attack_66
+  - first:
+      213: -8277061193877376674
+    second: mouse_attack_67
+  - first:
+      213: 6079734215605315730
+    second: mouse_attack_68
+  - first:
+      213: -5057100197486461856
+    second: mouse_attack_69
+  - first:
+      213: -108071317735052544
+    second: mouse_attack_70
+  - first:
+      213: 1424584363681500920
+    second: mouse_attack_71
+  - first:
+      213: 4018941471977737557
+    second: mouse_attack_72
+  - first:
+      213: -8817859299790310655
+    second: mouse_attack_73
+  - first:
+      213: 2996331022523575428
+    second: mouse_attack_74
+  - first:
+      213: -5221853500297610143
+    second: mouse_attack_75
+  - first:
+      213: 5730263317756490260
+    second: mouse_attack_76
+  - first:
+      213: -6752795684247285338
+    second: mouse_attack_77
+  - first:
+      213: -71554678917350968
+    second: mouse_attack_78
+  - first:
+      213: -2715888851224272839
+    second: mouse_attack_79
+  - first:
+      213: 2144667594784152632
+    second: mouse_attack_80
+  - first:
+      213: -9035265091713291940
+    second: mouse_attack_81
+  - first:
+      213: -25772438175045049
+    second: mouse_attack_1
+  - first:
+      213: 7465868760330496638
+    second: mouse_attack_3
+  - first:
+      213: 7298620765097090751
+    second: mouse_attack_5
+  - first:
+      213: -41562458890624636
+    second: mouse_attack_7
+  - first:
+      213: -474378699638574876
+    second: mouse_attack_9
+  - first:
+      213: -1258203795251312095
+    second: mouse_attack_10
+  - first:
+      213: -6137627087519524200
+    second: mouse_attack_11
+  - first:
+      213: 8046826058484163453
+    second: mouse_attack_13
+  - first:
+      213: -6305858162198054798
+    second: mouse_attack_15
+  - first:
+      213: -960320154306533686
+    second: mouse_attack_17
+  - first:
+      213: 1518546864639415878
+    second: mouse_attack_28
+  - first:
+      213: 810007164625405951
+    second: mouse_attack_30
+  - first:
+      213: 3977488434075218288
+    second: mouse_attack_32
+  - first:
+      213: 58885761837969054
+    second: mouse_attack_34
+  - first:
+      213: -6935140228769410037
+    second: mouse_attack_36
+  - first:
+      213: -8612561697184141552
+    second: mouse_attack_56
+  - first:
+      213: 1189213642553445880
+    second: mouse_attack_58
+  - first:
+      213: 6479626599335990875
+    second: mouse_attack_60
+  - first:
+      213: -276795276276893515
+    second: mouse_attack_62
+  - first:
+      213: -4939607560710790806
+    second: mouse_attack_64
+  - first:
+      213: -1051786721958610683
+    second: mouse_attack_70
+  - first:
+      213: -8743232365802989206
+    second: mouse_attack_72
+  - first:
+      213: 1615091171299560854
+    second: mouse_attack_74
+  - first:
+      213: 7284123841186722413
+    second: mouse_attack_76
+  - first:
+      213: 1389885187671249785
+    second: mouse_attack_77
+  - first:
+      213: 6618459328725561072
+    second: mouse_attack_78
+  - first:
+      213: 1142380364954041142
+    second: mouse_attack_80
+  - first:
+      213: 552492170030222207
+    second: mouse_attack_82
+  - first:
+      213: -1093146668952462243
+    second: mouse_attack_83
+  - first:
+      213: 8858558953309448294
+    second: mouse_attack_84
+  - first:
+      213: 8836025383093997481
+    second: mouse_attack_85
+  - first:
+      213: 1993870008053848324
+    second: mouse_attack_86
+  - first:
+      213: 1700621453334996658
+    second: mouse_attack_87
+  - first:
+      213: -3462460148466381694
+    second: mouse_attack_88
+  - first:
+      213: -6615137830394982040
+    second: mouse_attack_89
+  - first:
+      213: 1536831377576417075
+    second: mouse_attack_90
+  - first:
+      213: 3084212091657581307
+    second: mouse_attack_91
+  - first:
+      213: -7681637522551516085
+    second: mouse_attack_92
+  - first:
+      213: 8942513733621018534
+    second: mouse_attack_93
+  - first:
+      213: 4313308253813011043
+    second: mouse_attack_94
+  - first:
+      213: -3462506244032986151
+    second: mouse_attack_95
+  - first:
+      213: 9123892864461331539
+    second: mouse_attack_96
+  - first:
+      213: 3867082291322184858
+    second: mouse_attack_97
+  - first:
+      213: 5925897875655778141
+    second: mouse_attack_98
+  - first:
+      213: 625812414217795483
+    second: mouse_attack_99
+  - first:
+      213: 8068157796220732339
+    second: mouse_attack_100
+  - first:
+      213: 2855746449762923473
+    second: mouse_attack_101
+  - first:
+      213: 6361225929661836973
+    second: mouse_attack_102
+  - first:
+      213: 7222999583995030216
+    second: mouse_attack_103
+  - first:
+      213: -9189653929462425654
+    second: mouse_attack_104
+  - first:
+      213: 5015877502305776848
+    second: mouse_attack_105
+  - first:
+      213: 4080356251671482346
+    second: mouse_attack_106
+  - first:
+      213: 5506032859274930386
+    second: mouse_attack_107
+  - first:
+      213: -9216025341137012806
+    second: mouse_attack_108
+  - first:
+      213: -5432115127111211470
+    second: mouse_attack_109
+  - first:
+      213: -933574812965704156
+    second: mouse_attack_110
+  - first:
+      213: 6739020379699116028
+    second: mouse_attack_111
+  - first:
+      213: -3355577681061569200
+    second: mouse_attack_112
+  - first:
+      213: -8838785454127209323
+    second: mouse_attack_113
+  - first:
+      213: 5740230894475036901
+    second: mouse_attack_114
+  - first:
+      213: -2225393287687620030
+    second: mouse_attack_115
+  - first:
+      213: 3890046797306691099
+    second: mouse_attack_116
+  - first:
+      213: 5100231029450769337
+    second: mouse_attack_117
+  - first:
+      213: -8131507704887515523
+    second: mouse_attack_118
+  - first:
+      213: -6948473551060144245
+    second: mouse_attack_119
+  - first:
+      213: -1894877009073085451
+    second: mouse_attack_120
+  - first:
+      213: -8427781801282461943
+    second: mouse_attack_121
+  - first:
+      213: -1887978849859459928
+    second: mouse_attack_122
+  - first:
+      213: -1664423062935619585
+    second: mouse_attack_123
+  - first:
+      213: 2126736714868166648
+    second: mouse_attack_124
+  - first:
+      213: 4618388943867532974
+    second: mouse_attack_125
+  - first:
+      213: -6746349088929288866
+    second: mouse_attack_126
+  - first:
+      213: 7784231674942767301
+    second: mouse_attack_127
+  - first:
+      213: 1158987464697689418
+    second: mouse_attack_128
+  - first:
+      213: -1645187094751484239
+    second: mouse_attack_129
+  - first:
+      213: 4309693025603228810
+    second: mouse_attack_130
+  - first:
+      213: 7813855558479145196
+    second: mouse_attack_131
+  - first:
+      213: 4423488481249532518
+    second: mouse_attack_132
+  - first:
+      213: 5801576662670182390
+    second: mouse_attack_133
+  - first:
+      213: 8300195272000707301
+    second: mouse_attack_134
+  - first:
+      213: -1802922199822539949
+    second: mouse_attack_135
+  - first:
+      213: -7732984337692450522
+    second: mouse_attack_136
+  - first:
+      213: -980111623835740278
+    second: mouse_attack_137
+  - first:
+      213: 8010352638162416799
+    second: mouse_attack_138
+  - first:
+      213: 1052691970569249547
+    second: mouse_attack_139
+  - first:
+      213: -2400733421433689120
+    second: mouse_attack_140
+  - first:
+      213: -3896839005803304672
+    second: mouse_attack_141
+  - first:
+      213: -3271872093542055404
+    second: mouse_attack_142
+  - first:
+      213: 6488805264957435470
+    second: mouse_attack_143
+  - first:
+      213: 5394785514796160257
+    second: mouse_attack_144
+  - first:
+      213: 8129928303755716674
+    second: mouse_attack_145
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mouse_attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d205889f6ad7e340800000000000000
+      internalID: 4893119692996412112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 870
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aa491aa1074aff0800000000000000
+      internalID: -25772438175045049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 870
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efa0144093705f80800000000000000
+      internalID: -8119863064694575136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 870
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a6f27e4181c9760800000000000000
+      internalID: 7465868760330496638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 870
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a4a2659ef179d90800000000000000
+      internalID: -7091164001238103480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbed6e58ae8e94560800000000000000
+      internalID: 7298620765097090751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 696
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010fb3d591b2ecef0800000000000000
+      internalID: -86083954935074800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 696
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48125d1f9275c6ff0800000000000000
+      internalID: -41562458890624636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_8
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 696
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ba3dd2067e52540800000000000000
+      internalID: 4982642963027045255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 696
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0f707061baa69f0800000000000000
+      internalID: -474378699638574876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a4ff08056f98ee0800000000000000
+      internalID: -1258203795251312095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 522
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a5594bea4c2daa0800000000000000
+      internalID: -6137627087519524200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 522
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919471e8e17039a40800000000000000
+      internalID: 5373646608197437721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 522
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d732e419aa11caf60800000000000000
+      internalID: 8046826058484163453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 522
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43715ec47680b0f0800000000000000
+      internalID: -1103234072469998771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278ff2e49671d78a0800000000000000
+      internalID: -6305858162198054798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 348
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fdbafe042877980800000000000000
+      internalID: -8541214952874320080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 348
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac629eb58e14ca2f0800000000000000
+      internalID: -960320154306533686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 348
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ef6cb7336afeb80800000000000000
+      internalID: -8363283242953540057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 348
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770614ea01b39da50800000000000000
+      internalID: 6546328476188762231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d83a523a95818a0800000000000000
+      internalID: -6334214318650585822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 174
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4511196f0357250800000000000000
+      internalID: 5941709118939157705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 174
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b5e758b8f52d600800000000000000
+      internalID: 491560362181548802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_23
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 174
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac0e864c35519210800000000000000
+      internalID: 1337944281675861162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_24
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 174
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658b56e5423993460800000000000000
+      internalID: 7221965261877131350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse_attack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 148
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc15a181164884a0800000000000000
+      internalID: -6590941013653250861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
