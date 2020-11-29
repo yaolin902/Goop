@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GenericHealth : MonoBehaviour
 {
-	[SerializeField] int health = 0;
+	public int health = 0;
 	
 	void takeDamage(int toDamage)
 	{

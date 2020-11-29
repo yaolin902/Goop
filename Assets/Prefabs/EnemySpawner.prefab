@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2443515535214765440}
-  - component: {fileID: 2443515535214765441}
-  m_Layer: 0
+  - component: {fileID: 405991462}
+  m_Layer: 12
   m_Name: EnemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2443515535214765441
+--- !u!114 &405991462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,9 +40,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2443515535214765442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77d68d276352c2b4092893a35b5e9ac7, type: 3}
+  m_Script: {fileID: 11500000, guid: f74416a64bbdd27f99eb47005f76a38a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPool: []
+  spawnPool:
+  - {fileID: 2207688622515218495, guid: 0c8eafd7f326aba029325d67a31d16bd, type: 3}
+  - {fileID: 7421737110464921264, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
+  spawnRate: 5
   spawnTimer: 0
-  safeDistance: 2.5
+  safeDistance: 3.5
+  enemy_distance: 2.5

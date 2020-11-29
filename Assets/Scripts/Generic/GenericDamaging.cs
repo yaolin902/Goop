@@ -20,7 +20,7 @@ public class GenericDamaging : MonoBehaviour
 		// ground layer: 8, one way platform layer: 9
 		if (collision.gameObject.layer != 8 && collision.gameObject.layer != 9) {
 			collision.gameObject.SendMessage("takeDamage", damage);
-			StartCoroutine(damage_effect(this.GetComponent<SpriteRenderer>(), 1f));
+			StartCoroutine(damage_effect(this.GetComponent<SpriteRenderer>(), 0.5f));
 		}
 	}
 

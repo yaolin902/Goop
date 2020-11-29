@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7421737108982189788}
   - component: {fileID: 7421737108982189789}
   - component: {fileID: 7421737108982189790}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Yarnball Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}

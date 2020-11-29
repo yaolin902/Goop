@@ -25,7 +25,7 @@ public class WizardMovement : MonoBehaviour
 		
 		// This will try to keep the player in the desired distance by moving towards or away.
         if(currentDistance <= desiredDistance)
-			rigidBody.velocity = new Vector2(moveSpeed * Mathf.Sign(currentDistance - desiredDistance), 0);
+			rigidBody.velocity = new Vector2(moveSpeed * Mathf.Sign(desiredDistance - currentDistance), 0);
 		else
 			rigidBody.velocity = new Vector2(0,0);
     }

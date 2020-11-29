@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc1a42812a126ef6a92a27922d9c3fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 4
   desiredDistance: 4
 --- !u!50 &2207688622515218466
 Rigidbody2D:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6b6ae84088c25f180573e421d9edc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 1
 --- !u!114 &8536271717047050867
 MonoBehaviour:
   m_ObjectHideFlags: 0
