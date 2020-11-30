@@ -291,14 +291,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &286293055
-AudioListener:
+--- !u!114 &286293055
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286293054}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed20ed6b99b8fbc578226a2f00a177d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1501282356}
 --- !u!20 &286293056
 Camera:
   m_ObjectHideFlags: 0
@@ -326,7 +331,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.738696
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -350,7 +355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286293054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -2.06, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -508,8 +513,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396015620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.882, y: -4.682, z: 0}
-  m_LocalScale: {x: 0.4125578, y: 0.3966021, z: 1}
+  m_LocalPosition: {x: -0.465, y: -6.009, z: 0}
+  m_LocalScale: {x: 0.6063485, y: 0.9528396, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -549,11 +554,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.63
+      value: -3.26
       objectReference: {fileID: 0}
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.05
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -597,7 +602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2443515535214765442, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
@@ -1033,7 +1038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACAn+u3iaZPXAIAAAEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty2jAU/RVG65KxgZDQXWsI6SKPCe1k442QrrEGWfLoESAZ/r1XssGuu0Kccx/nHl35iwhla2BOm7UR/ElzIN9HJJzJt1FHPsKR7rTaiE+4xLwL7soQRGPMG3VCI56GNKsrcEawH2onQ3CCoFei0KZa8R1k2jqLcEGlBaSMdiFbIfQ1Ikf8GS9CyglPk7tw+sTTIhmd8chAOTD90JvZfD6fTGercXLfZl1ymhSvmKRVDTzo7zInszY6bcIUTtZGhCmYllLYVhZxpzqOndHaehwKA7igOGbUkt7cIlCC2JUuVO6nvxSFBdeKMvS0FAb9auqSn7oxsaJ23yj7oNKHTrfpJKpqij79x4/TSBdGV4+XvmkSerhSsP0bPTFqXc/lPrzsSY8GHajc062E9xLUs14b7RVH0hkfUr2FybL7ex0tK4HtO7yROgB93TmeDK4nzHCO0x8zKaptoG5mDbCROjoeNwEM3s0vFBz3xLYlEA0q/lj4TXf9hWqJB2GsQ6qdUgV5W+1NCCWr6FmYxrtMGwURbkXXoKh0p1cs44ZXOOB6bQfMAw1Pp23ecpcXMUiJcBefJAPqVR+ul2VLfXgCW754J4WCTnQgntGnTCvVbFjfk0vaxpuCsl7azgv+72qRgnM6nXKYM75dFHA3TvhiliwStk1YkU7SexJ3Tyick8rXRmhrD96a6oor3LPLF2W0NrSO284NPazFZ6V7lgtV6A0zAOqlqXAVDgab4LvkKy7QoA04J1S8b/KVE6nZHnh+LZTHSVdHZ2jeVclJLT60C0hOsvgJycmZnP8CUEsDBBQAAAgIAACAn+vtyU6wbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSWkpKorFxSqpZckqSZVqqua5BiqWJgaVBcpJBcpqhkaGFUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+u3iaZPXAIAAAEFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+vtyU6wbQAAAHgAAAAJACQAAAAAAAAAAAAAAKkCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAYQMAAAAA
+    dataString: UEsDBBQAAAgIAACAn+uuetQ7UAIAAPYEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VMty2jAU/RVG6yZjkyfdtQ4hXRCYkE423gjpGmuQJY8e4ZHh33sl29il0xXinHOvzn3IX0QoWwNz2syM4HPNgXwfkXAm30Y9+QJ7utFqJY7QaT4Ed2UQ0ah5o05oxNMQZnUFzgj2Q21kECcIeiUKbaop30CmrbMIF1RaQMpoF6IVQl8jssefq0kIOeBp/BBORzxNktEJjwyUA9NLO2Ena1ReMUmrGniw3IvHnTq9jzKFxbSK5PoxZNdSCtt6Ie5Qx1ozWluPlaCAC4q1RQPp9R0CJYhN6ULuYfiiKCy41pahhydhsElNXvJTN52rqN023j6p9OGmu3QcfTVJ5//wV2mkC6Orl+7eNAl3uFKw7Rs9MGrdoLVD+GlgPbZoR+WWriV8lKBe9cxorziSzvgQ6i2Mn/q/59KyEti2xxurF6Cv/z+gUMMpVr/PpKjWsfe3DbCSOnY8jh8MTucXGo7LYdsUiAYXvy28081wi1riWRjrkGqrVMHeWnsTpGQaexaq8S7TRkGEW9M1KCrdYYlp3OUIL7jBtRfMMw3vpb285bpncBES4V6fJBfUUu/Ow7Kl3s3BlgvvpFDQmw7EK/Yp00o1GzbsSRe28qagbBC28YL/vVqk4Jze3HC4Z3w9KeDhKuGT22SSsHXCinScPpK4e0JhnVQuG6Nte3Bqqk+ucM+6z8hoZmgdt50bupuJY6UHLReq0CtmANSiyXA2DgYvwZfJp1xgg1bgnFBx3uQrJ1KzLfD8nCiPlU73ztC8z5KTWnxqF5CcZPG7kZMTOf0BUEsDBBQAAAgIAACAn+vtyU6wbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSWkpKorFxSqpZckqSZVqqua5BiqWJgaVBcpJBcpqhkaGFUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+uuetQ7UAIAAPYEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+vtyU6wbQAAAHgAAAAJACQAAAAAAAAAAAAAAJ0CAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAVQMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -2007,11 +2012,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7421737110464921268, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.548
+      value: -7.16
       objectReference: {fileID: 0}
     - target: {fileID: 7421737110464921268, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.79
+      value: 2.372
       objectReference: {fileID: 0}
     - target: {fileID: 7421737110464921268, guid: bc376d844afa89ec797141f7b45387f3, type: 3}
       propertyPath: m_LocalPosition.z

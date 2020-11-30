@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7421737108982189788}
   - component: {fileID: 7421737108982189789}
   - component: {fileID: 7421737108982189790}
+  - component: {fileID: 1843729904}
   m_Layer: 12
   m_Name: Yarnball Enemy
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 7421737110464921264}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.548, y: 2.79, z: 0}
-  m_LocalScale: {x: 0.18300642, y: 0.19036677, z: 1}
+  m_LocalScale: {x: 1.0551099, y: 1.1089221, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 035bdd226af516a2bb134003ef598e6e, type: 3}
+  m_Sprite: {fileID: 8384512839381223101, guid: e86a107becf1ef53ca44c19a21949076, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  freeze_time: 1
 --- !u!114 &7289878670958069570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,9 +143,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.056604236}
+  m_Offset: {x: 0.007854114, y: 0.09396437}
   serializedVersion: 2
-  m_Radius: 2.8901925
+  m_Radius: 0.3795843
 --- !u!114 &7421737108982189788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 2
-  radius: 3
+  radius: 0.5
   height: 2
   repathRate: 0.5
   canSearch: 1
@@ -222,3 +224,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!95 &1843729904
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7421737110464921264}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 95509f18dd5926a38aa6c606d9804d29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
