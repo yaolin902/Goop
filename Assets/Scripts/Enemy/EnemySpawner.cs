@@ -18,7 +18,9 @@ public class EnemySpawner : MonoBehaviour
 	// This is to prevent contact enemies from spawning
 	// on top of player.
 	[SerializeField] internal float safeDistance = 2.5f;
+	[SerializeField] private float enemy_distance = 5f;
 	internal GameObject player;
+	private bool is_near_enemy = false;
 
 	private void Start()
 	{
@@ -31,6 +33,10 @@ public class EnemySpawner : MonoBehaviour
 		// Cancels spawn timer countdown if player is within
 		// specified "safeDistance"
 		if (Vector2.Distance(player.transform.position, this.transform.position) < safeDistance) return;
+		
+		// collision detection of other enemy 
+		Collider2D[] hit_collider = Physics2D.OverlapCircleAll(this.transform.position, enemy_distance);
+		if (hit_collider.Length != 1) return;
 
 		// Timer countdown
 		spawnTimer -= Time.deltaTime;
@@ -48,6 +54,6 @@ public class EnemySpawner : MonoBehaviour
 		// Following variables determine which enemy from the
 		// spawnPool will be created and where in the spawnRadius
 		// it will be created.
-		Instantiate(spawnPool[Random.Range(0, spawnPool.Length)], this.transform, true);
+		Instantiate(spawnPool[Random.Range(0, spawnPool.Length)], this.transform.position, this.transform.rotation);
 	}
 }

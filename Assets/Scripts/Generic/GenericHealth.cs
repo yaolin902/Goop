@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GenericHealth : MonoBehaviour
 {
-	[SerializeField] int health = 0;
+	public int health = 0;
 	
 	void takeDamage(int toDamage)
 	{
@@ -12,13 +12,6 @@ public class GenericHealth : MonoBehaviour
 		// Works alongside GenericDamage.cs
 		// and any script that can call the
 		// "takeDamage" function.
-
-		// player immune to damage when attacking
-		if (this.gameObject == GameObject.FindWithTag("Player")) {
-			if (this.gameObject.GetComponent<PlayerController>().is_attacking) {
-				return;
-			}
-		}
 
 		health -= toDamage;
 		if (health <= 0) Destroy(gameObject);

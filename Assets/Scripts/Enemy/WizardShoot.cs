@@ -9,6 +9,7 @@ public class WizardShoot : MonoBehaviour
 	[SerializeField] internal Transform firePoint;
 	[SerializeField] float bullet_speed;
 	internal GameObject player;
+	private Animator animator;
 
 	// Uses how many seconds in reload rate to determine how fast
 	// the character shoots.
@@ -19,6 +20,7 @@ public class WizardShoot : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+		animator = GetComponent<Animator>();
 		reloadTime = reloadRate;
     }
 
@@ -27,7 +29,11 @@ public class WizardShoot : MonoBehaviour
     {
 		// Ticks away at the time before shooting, then restarting the timer
         reloadTime -= Time.deltaTime;
-		if (reloadTime <= 0)
+		if (reloadTime <= 1 && reloadTime >= 0.9f) {
+			// starts animation early
+			animator.SetBool("is_attack", true);
+		}
+		else if (reloadTime <= 0)
 		{
 			Shoot();
 			reloadTime = reloadRate;
@@ -40,6 +46,8 @@ public class WizardShoot : MonoBehaviour
 		//firePoint.transform.LookAt(player.transform);
 		GameObject bullet = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
 		Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
+
+		animator.SetBool("is_attack", false);
 
 		// wizard shoots left or right
 		float x_diff = this.transform.position.x - player.transform.position.x;

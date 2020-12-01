@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D player;
     private GameObject projectile_player;
     private BoxCollider2D ground_collider;
+    private Animator animator;
 
     private bool is_facing_right = true;
     [HideInInspector]
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     {
         player = GetComponent<Rigidbody2D>();
         ground_collider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
         projectile_player = GameObject.FindWithTag("Projectile Player");
 
         dash_attack_timer = dash_attack_cooldown + dash_attack_time;
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
         // player movement
         float move_x = Input.GetAxis("Horizontal");
         player.velocity = new Vector2(speed * move_x, player.velocity.y);
+        animator.SetFloat("speed", Mathf.Abs(speed * move_x));
 
         // jump
         if (Input.GetKeyDown(KeyCode.Space) && (is_grounded() || is_platformed()))

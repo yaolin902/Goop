@@ -18,22 +18,18 @@ public class GenericDamaging : MonoBehaviour
 		// variable to the function.
 
 		// ground layer: 8, one way platform layer: 9
-		if (collision.gameObject.layer != 8 && collision.gameObject.layer != 9) {
-			collision.gameObject.SendMessage("takeDamage", damage);
-			StartCoroutine(damage_effect(this.GetComponent<SpriteRenderer>(), 1f));
-		}
-	}
-
-	// damage effect is set to red
-	IEnumerator damage_effect(SpriteRenderer sr, float effect_time) {
-		Color original_color = sr.color;
-		sr.color = Color.red;
-
-		for (float t = 0; t < 1.0f; t += Time.deltaTime / effect_time) {
-			sr.color = Color.Lerp(Color.red, original_color, t);
-			yield return null;
+		if (collision.gameObject.layer == 8 && collision.gameObject.layer == 9) {
+			return;
 		}
 
-		sr.color = original_color;
+		// player immune to damage when attacking
+		if (collision.gameObject == GameObject.FindWithTag("Player")) {
+			if (collision.gameObject.GetComponent<PlayerController>().is_attacking &&
+				this.gameObject.layer == 12) {
+				return;
+			}
+		}
+
+		collision.gameObject.SendMessage("takeDamage", damage);
 	}
 }
