@@ -9,6 +9,7 @@ using UnityEngine;
 public class GenericDamaging : MonoBehaviour
 {
 	[SerializeField] internal int damage = 0;
+	[SerializeField] internal float knockback_force = 0f;
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
@@ -18,7 +19,7 @@ public class GenericDamaging : MonoBehaviour
 		// variable to the function.
 
 		// ground layer: 8, one way platform layer: 9
-		if (collision.gameObject.layer == 8 && collision.gameObject.layer == 9) {
+		if (collision.gameObject.layer == 8 || collision.gameObject.layer == 9) {
 			return;
 		}
 
@@ -31,5 +32,12 @@ public class GenericDamaging : MonoBehaviour
 		}
 
 		collision.gameObject.SendMessage("takeDamage", damage);
+
+		// take knockback
+		if (this.gameObject == GameObject.FindWithTag("Player")) {
+			Rigidbody2D rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
+			float x_diff = collision.transform.position.x - this.transform.position.x;
+			rb.velocity = new Vector2(knockback_force * Mathf.Sign(x_diff), knockback_force);
+		}
 	}
 }
