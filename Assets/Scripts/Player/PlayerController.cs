@@ -65,6 +65,9 @@ public class PlayerController : MonoBehaviour
             straight_attack();
 
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
 
     // ground checks
