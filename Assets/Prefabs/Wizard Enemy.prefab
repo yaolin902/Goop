@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 2207688622515218468}
   - component: {fileID: 2207688622515218467}
   - component: {fileID: 2207688622515218465}
-  - component: {fileID: 2207688622515218464}
   - component: {fileID: 2207688622515218466}
   - component: {fileID: 2207688622515218470}
   - component: {fileID: 2207688622515218469}
-  - component: {fileID: 8536271717047050867}
   - component: {fileID: 40217551371973177}
+  - component: {fileID: 2900577475293544587}
   m_Layer: 12
   m_Name: Wizard Enemy
   m_TagString: Untagged
@@ -115,20 +114,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9593317, y: 0.8668935}
   m_EdgeRadius: 0
---- !u!114 &2207688622515218464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2207688622515218495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc1a42812a126ef6a92a27922d9c3fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 4
-  desiredDistance: 4
 --- !u!50 &2207688622515218466
 Rigidbody2D:
   serializedVersion: 4
@@ -163,6 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  knockback_force: 0
 --- !u!114 &2207688622515218469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,21 +162,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
---- !u!114 &8536271717047050867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2207688622515218495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 793c14d3c056c13d0910db518cb536e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 488486472919785447, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}
-  firePoint: {fileID: 2207688622515218468}
-  bullet_speed: 7
 --- !u!95 &40217551371973177
 Animator:
   serializedVersion: 3
@@ -210,3 +181,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2900577475293544587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207688622515218495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bab14b44e5d835d283f1a4b0466577a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet_speed: 0
+  move_speed: 0
+  desired_distance: 0
+  shoot_cooldown: 0
+  wizard_states: 0
+  wizard_attack_states: 0
+  enemy_bullet: {fileID: 488486472919785447, guid: e56299f8a08caa8129d3ac6ed9113dfc, type: 3}

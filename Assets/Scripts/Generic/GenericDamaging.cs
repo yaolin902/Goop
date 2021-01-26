@@ -23,10 +23,11 @@ public class GenericDamaging : MonoBehaviour
 			return;
 		}
 
-		// player immune to damage when attacking
+		// player immune to damage when dash attacking
 		if (collision.gameObject == GameObject.FindWithTag("Player")) {
-			if (collision.gameObject.GetComponent<PlayerController>().is_attacking &&
-				this.gameObject.layer == 12) {
+			PlayerController script = collision.gameObject.GetComponent<PlayerController>();
+			if (script.player_attack_state == PlayerController.AttackStates.DashAttack &&
+				this.gameObject.layer == 12) { // enemy layer: 12
 				return;
 			}
 		}

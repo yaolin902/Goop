@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  knockback_force: 0
 --- !u!114 &4065637864846892351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +170,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5111808482780274934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dca3e33b7201fcf7ba13edcaed700ba5, type: 3}
+  m_Script: {fileID: 11500000, guid: 058ba5835c9fed8f8bba387dea8828ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  decay_time: 10
