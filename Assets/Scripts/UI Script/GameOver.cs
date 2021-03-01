@@ -12,7 +12,7 @@ public class GameOver : MonoBehaviour
     void Update()
     {
         // whether the player is dead
-        if (GameObject.FindWithTag("Player") != null) {
+        if (GameObject.FindWithTag("Player").GetComponent<GenericHealth>().health != 0) {
             return;
         }
 
@@ -20,7 +20,4 @@ public class GameOver : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void restart() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
 }

@@ -14,6 +14,6 @@ public class GenericHealth : MonoBehaviour
 		// "takeDamage" function.
 
 		health -= toDamage;
-		if (health <= 0) Destroy(gameObject);
+		if (health <= 0 && this.gameObject != GameObject.FindWithTag("Player")) Destroy(gameObject);
 	}
 }
