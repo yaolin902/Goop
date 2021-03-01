@@ -24,21 +24,21 @@ public class GenericDamaging : MonoBehaviour
 		}
 
 		// player immune to damage when dash attacking
-		if (collision.gameObject == GameObject.FindWithTag("Player")) {
-			PlayerController script = collision.gameObject.GetComponent<PlayerController>();
-			if (script.player_attack_state == PlayerController.AttackStates.DashAttack &&
-				this.gameObject.layer == 12) { // enemy layer: 12
-				return;
-			}
-		}
+		// if (collision.gameObject == GameObject.FindWithTag("Player")) {
+		// 	PlayerController script = collision.gameObject.GetComponent<PlayerController>();
+		// 	if (script.player_attack_state == PlayerController.AttackStates.DashAttack &&
+		// 		this.gameObject.layer == 12) { // enemy layer: 12
+		// 		return;
+		// 	}
+		// }
 
 		collision.gameObject.SendMessage("takeDamage", damage);
 
 		// take knockback
-		if (this.gameObject == GameObject.FindWithTag("Player")) {
-			Rigidbody2D rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
-			float x_diff = collision.transform.position.x - this.transform.position.x;
-			rb.velocity = new Vector2(knockback_force * Mathf.Sign(x_diff), knockback_force);
-		}
+		// if (this.gameObject == GameObject.FindWithTag("Player")) {
+		// 	Rigidbody2D rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
+		// 	float x_diff = collision.transform.position.x - this.transform.position.x;
+		// 	rb.velocity = new Vector2(knockback_force * Mathf.Sign(x_diff), knockback_force);
+		// }
 	}
 }
