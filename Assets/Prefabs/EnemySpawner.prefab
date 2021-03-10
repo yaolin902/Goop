@@ -49,4 +49,4 @@ MonoBehaviour:
   spawnRate: 5
   spawnTimer: 0
   safeDistance: 3.5
-  enemy_distance: 2.5
+  enemy_distance: 1.5

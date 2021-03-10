@@ -31,18 +31,21 @@ public class CameraMovement : MonoBehaviour
 
         // rotate camera
         // vertical rotation
-        if (player_rb.velocity.y > 0.01f || camera_vertical_state == RotateState.Up) {
-            camera_vertical_state = RotateState.Up;
+        Debug.Log(camera_vertical_state);
+        if (player_rb.velocity.y > 0 || camera_vertical_state == RotateState.Up) {
             if (this.transform.rotation.eulerAngles.x > max_x_rotate)
                 camera_vertical_state = RotateState.None;
-            else
+            else {
+                camera_vertical_state = RotateState.Up;
                 this.transform.Rotate(rotate_speed * Time.deltaTime, 0.0f, 0.0f);
-        } else if (player_rb.velocity.y < 0.01f || camera_vertical_state == RotateState.Down) {
-            camera_vertical_state = RotateState.Down;
+            }
+        } else if (player_rb.velocity.y < 0 || camera_vertical_state == RotateState.Down) {
             if (this.transform.rotation.eulerAngles.x < min_x_rotate)
                 camera_vertical_state = RotateState.None;
-            else
+            else {
+                camera_vertical_state = RotateState.Down;
                 this.transform.Rotate(-rotate_speed * Time.deltaTime, 0.0f, 0.0f);
+            }
         }
         // } else if (camera_state == RotateState.Normal) {
         //     if (this.transform.rotation.eulerAngles.x < normal_x_rotate)
@@ -58,14 +61,13 @@ public class CameraMovement : MonoBehaviour
         //     camera_state = RotateState.Normal;
 
         // horizontal rotation
-        Debug.Log(player_rb.velocity.x);
-        if (player_rb.velocity.x > 0.01f || camera_horizontal_state == RotateState.Right) {
+        if (player_rb.velocity.x > 0 || camera_horizontal_state == RotateState.Right) {
             camera_horizontal_state = RotateState.Right;
             if (this.transform.rotation.eulerAngles.y > max_y_rotate)
                 camera_horizontal_state = RotateState.None;
             else
                 this.transform.Rotate(0.0f, rotate_speed * Time.deltaTime, 0.0f);
-        } else if (player_rb.velocity.x < 0.01f || camera_horizontal_state == RotateState.Left) {
+        } else if (player_rb.velocity.x < 0 || camera_horizontal_state == RotateState.Left) {
             camera_horizontal_state = RotateState.Left;
             if (this.transform.rotation.eulerAngles.y < min_y_rotate)
                 camera_horizontal_state = RotateState.None;

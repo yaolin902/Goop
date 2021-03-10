@@ -16,8 +16,8 @@ public class GenericHealth : MonoBehaviour
 		health -= toDamage;
 		if (health <= 0 && this.gameObject != GameObject.FindWithTag("Player"))
 		{
-			SFXController sfx = GetComponent<SFXController>();
-			sfx.PlayDeathSFX();
+			//SFXController sfx = GetComponent<SFXController>();
+			//sfx.PlayDeathSFX();
 			Destroy(gameObject);
 		}
 	}

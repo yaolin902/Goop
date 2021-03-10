@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
         // default player attribute
         player_state = States.Idle;
         player_attack_state = AttackStates.None;
-        player_jump_force = 25f;
+        player_jump_force = 20f;
         player_speed = 10f;
         player_dash_attack_speed = 30f;
         player_dash_attack_duration = 0.15f;

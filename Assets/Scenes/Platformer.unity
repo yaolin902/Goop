@@ -667,15 +667,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.78
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24
+      value: -1.08
       objectReference: {fileID: 0}
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 2443515535214765440, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -712,10 +712,6 @@ PrefabInstance:
     - target: {fileID: 2443515535214765442, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 2443515535214765442, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80a5441f6832990489b835a25dbf0be9, type: 3}
@@ -1258,7 +1254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 932570047}
   - component: {fileID: 932570048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 2D Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2187,7 +2183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932523372}
   - component: {fileID: 1932523373}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
