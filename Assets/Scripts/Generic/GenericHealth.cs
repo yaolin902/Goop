@@ -18,6 +18,11 @@ public class GenericHealth : MonoBehaviour
 		{
 			//SFXController sfx = GetComponent<SFXController>();
 			//sfx.PlayDeathSFX();
+
+			// update score
+			if (this.gameObject.tag != "Bullet")
+				GameObject.FindWithTag("Score").SendMessage("update_score", 10);
+
 			Destroy(gameObject);
 		}
 	}

@@ -31,7 +31,6 @@ public class CameraMovement : MonoBehaviour
 
         // rotate camera
         // vertical rotation
-        Debug.Log(camera_vertical_state);
         if (player_rb.velocity.y > 0 || camera_vertical_state == RotateState.Up) {
             if (this.transform.rotation.eulerAngles.x > max_x_rotate)
                 camera_vertical_state = RotateState.None;
