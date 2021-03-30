@@ -93,6 +93,7 @@ public class PlayerController : MonoBehaviour
         }
         if (player_state == States.Jumping) {
             player_rb.velocity = new Vector2(player_rb.velocity.x, player_jump_force);
+            player_animator.SetTrigger("jump");
             player_state = States.Falling;
         }
 

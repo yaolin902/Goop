@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : Singleton<LevelManager>
+public class LevelManager : MonoBehaviour
 {
-    protected LevelManager() { }
     
     public void LoadScene(int sceneIndex) {
         SceneManager.LoadScene(sceneIndex);
