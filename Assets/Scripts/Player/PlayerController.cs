@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public AttackStates player_attack_state;
     private float dash_attack_timer;
     private bool is_player_facing_right;
+    private bool can_player_shoot_sfx;
 
     // unity object
     [SerializeField] private LayerMask ground_layer;
@@ -55,6 +56,7 @@ public class PlayerController : MonoBehaviour
         player_dash_attack_duration = 0.15f;
         player_dash_attack_cooldown = 1f;
         is_player_facing_right = true;
+        can_player_shoot_sfx = true;
         max_player_distance = 2f;
         projectile_player_speed = 10f;
         bullet_speed = 5f;
@@ -109,6 +111,10 @@ public class PlayerController : MonoBehaviour
 
         // state function
         if (player_attack_state == AttackStates.DashAttack) {
+            if (can_player_shoot_sfx) {
+                SFXController.Instance.play("player_dash");
+                can_player_shoot_sfx = false;
+            }
             if (dash_attack())
                 StartCoroutine(attack_cooldown(player_dash_attack_cooldown));
         }
@@ -147,6 +153,7 @@ public class PlayerController : MonoBehaviour
         player_attack_state = AttackStates.AttackCooldown;
         yield return new WaitForSeconds(time);
         player_attack_state = AttackStates.None;
+        can_player_shoot_sfx = true;
     }
 
     private bool is_player_on_ground() {
@@ -165,6 +172,8 @@ public class PlayerController : MonoBehaviour
         // spawn bullet
         GameObject bullet = Instantiate(bullet_sprite, projectile_player.transform.position, projectile_player.transform.rotation);
         Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
+
+        SFXController.Instance.play("player_shoot");
 
         // fire direction
         if (is_player_facing_right)

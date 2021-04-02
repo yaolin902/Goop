@@ -204,6 +204,8 @@ public class Wizard : MonoBehaviour
 			else
 				bullet_rb.velocity = new Vector2(bullet_speed, bullet_rb.velocity.y);
 
+			SFXController.Instance.play("enemy_attack"); // play sfx
+
 			shoot_timer = shoot_duration;
 		} else {
 			if (shoot_timer == 1f) {

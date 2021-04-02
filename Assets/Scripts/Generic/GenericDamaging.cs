@@ -40,5 +40,12 @@ public class GenericDamaging : MonoBehaviour
 			rb.velocity = Vector3.zero;
 			rb.AddForce(Vector2.one * knockback_force, ForceMode2D.Impulse);
 		}
+
+		// play sfx
+		if (collision.gameObject == GameObject.FindWithTag("Player")) {
+			SFXController.Instance.play("player_damage");
+		} else if (collision.gameObject == GameObject.FindWithTag("Enemy")) {
+			SFXController.Instance.play("enemy_death");
+		}
 	}
 }

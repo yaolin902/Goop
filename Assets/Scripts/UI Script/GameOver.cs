@@ -15,7 +15,7 @@ public class GameOver : MonoBehaviour
         if (GameObject.FindWithTag("Player").GetComponent<GenericHealth>().health != 0) {
             return;
         }
-
+        SFXController.Instance.play("player_death");
         GetComponent<Animator>().SetTrigger("pop_up");
         Time.timeScale = 0;
     }
