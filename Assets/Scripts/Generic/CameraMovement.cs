@@ -6,6 +6,7 @@ public class CameraMovement : MonoBehaviour
 {
     public Transform player;
     public Rigidbody2D player_rb;
+    private Camera camera;
 
     enum RotateState {
         None,
@@ -22,12 +23,26 @@ public class CameraMovement : MonoBehaviour
     float min_y_rotate = 2.0f;
     float rotate_speed = 2.25f;
     float y_offset = 2.0f;
+    float smooth_speed = 0.5f;
+    float damp_time = 0.3f;
+    Vector3 v = Vector3.zero;
     RotateState camera_vertical_state = RotateState.None;
     RotateState camera_horizontal_state = RotateState.None;
+
+    void Start() {
+        camera = GetComponent<Camera>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(player.position.x, player.position.y + y_offset, transform.position.z);
+        //transform.position = new Vector3(player.position.x, player.position.y + y_offset, transform.position.z);
+        // smoothier camera movement
+        Vector3 p = camera.WorldToViewportPoint(player.position);
+        Vector3 change = player.position - camera.ViewportToWorldPoint(new Vector3(smooth_speed, smooth_speed, p.z));
+        Vector3 d = transform.position + change;
+        d.y += y_offset;
+        transform.position = Vector3.SmoothDamp(transform.position, d, ref v, damp_time);
 
         // rotate camera
         // vertical rotation
@@ -46,18 +61,6 @@ public class CameraMovement : MonoBehaviour
                 this.transform.Rotate(-rotate_speed * Time.deltaTime, 0.0f, 0.0f);
             }
         }
-        // } else if (camera_state == RotateState.Normal) {
-        //     if (this.transform.rotation.eulerAngles.x < normal_x_rotate)
-        //         this.transform.Rotate(rotate_speed * Time.deltaTime, 0.0f, 0.0f);
-        //     else if (this.transform.rotation.eulerAngles.x > normal_x_rotate)
-        //         this.transform.Rotate(-rotate_speed * Time.deltaTime, 0.0f, 0.0f);
-            
-        //     if (Mathf.Abs(this.transform.rotation.eulerAngles.x - normal_x_rotate) < 0.5f)
-        //         camera_state = RotateState.None;
-        // }
-
-        // if (camera_state == RotateState.None && Mathf.Abs(this.transform.rotation.eulerAngles.x - normal_x_rotate) > 0.5f)
-        //     camera_state = RotateState.Normal;
 
         // horizontal rotation
         if (player_rb.velocity.x > 0 || camera_horizontal_state == RotateState.Right) {

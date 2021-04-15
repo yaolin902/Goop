@@ -57,8 +57,8 @@ public class PlayerController : MonoBehaviour
         player_dash_attack_cooldown = 1f;
         is_player_facing_right = true;
         can_player_shoot_sfx = true;
-        max_player_distance = 2f;
-        projectile_player_speed = 10f;
+        max_player_distance = 1.25f;
+        projectile_player_speed = 2.5f;
         bullet_speed = 5f;
         player_projectile_attack_cooldown = 1.5f;
         dash_attack_timer = player_dash_attack_duration;
@@ -92,11 +92,15 @@ public class PlayerController : MonoBehaviour
         // state function
         if (player_state != States.Idle) {
             move_player(Input.GetAxis("Horizontal"));
+            move_projectile_player();
         }
         if (player_state == States.Jumping) {
             player_rb.velocity = new Vector2(player_rb.velocity.x, player_jump_force);
             player_animator.SetTrigger("jump");
             player_state = States.Falling;
+        }
+        if (player_state == States.Idle) {
+            move_projectile_player();
         }
 
         
@@ -129,13 +133,17 @@ public class PlayerController : MonoBehaviour
         player_rb.velocity = new Vector2(player_speed * move_x, player_rb.velocity.y);
         player_animator.SetFloat("speed", Mathf.Abs(player_speed * move_x));
 
-        // move projectile player
-        if (Vector2.Distance(projectile_player.transform.position, player.transform.position) > max_player_distance) {
-            projectile_player.transform.position = Vector2.MoveTowards(projectile_player.transform.position, player.transform.position, player_speed * Time.deltaTime);
-        }
-
         if ((move_x < 0f && is_player_facing_right) || (move_x > 0f && !is_player_facing_right))
             flip_player_sprite();
+    }
+
+    private void move_projectile_player() {
+        // projectile player follows movable player
+        if (Vector2.Distance(projectile_player.transform.position, player.transform.position) > max_player_distance) {
+            // projectile_player.transform.position = Vector2.MoveTowards(projectile_player.transform.position, player.transform.position, player_speed * Time.deltaTime);
+            // smoothier follow
+            projectile_player.transform.position = Vector2.Lerp(projectile_player.transform.position, player.transform.position, projectile_player_speed * Time.deltaTime);
+        }
     }
     private void flip_player_sprite() {
         is_player_facing_right = !is_player_facing_right;
