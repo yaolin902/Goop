@@ -46,35 +46,35 @@ public class CameraMovement : MonoBehaviour
 
         // rotate camera
         // vertical rotation
-        if (player_rb.velocity.y > 0 || camera_vertical_state == RotateState.Up) {
-            if (this.transform.rotation.eulerAngles.x > max_x_rotate)
-                camera_vertical_state = RotateState.None;
-            else {
-                camera_vertical_state = RotateState.Up;
-                this.transform.Rotate(rotate_speed * Time.deltaTime, 0.0f, 0.0f);
-            }
-        } else if (player_rb.velocity.y < 0 || camera_vertical_state == RotateState.Down) {
-            if (this.transform.rotation.eulerAngles.x < min_x_rotate)
-                camera_vertical_state = RotateState.None;
-            else {
-                camera_vertical_state = RotateState.Down;
-                this.transform.Rotate(-rotate_speed * Time.deltaTime, 0.0f, 0.0f);
-            }
-        }
+        // if (player_rb.velocity.y > 0 || camera_vertical_state == RotateState.Up) {
+        //     if (this.transform.rotation.eulerAngles.x > max_x_rotate)
+        //         camera_vertical_state = RotateState.None;
+        //     else {
+        //         camera_vertical_state = RotateState.Up;
+        //         this.transform.Rotate(rotate_speed * Time.deltaTime, 0.0f, 0.0f);
+        //     }
+        // } else if (player_rb.velocity.y < 0 || camera_vertical_state == RotateState.Down) {
+        //     if (this.transform.rotation.eulerAngles.x < min_x_rotate)
+        //         camera_vertical_state = RotateState.None;
+        //     else {
+        //         camera_vertical_state = RotateState.Down;
+        //         this.transform.Rotate(-rotate_speed * Time.deltaTime, 0.0f, 0.0f);
+        //     }
+        // }
 
-        // horizontal rotation
-        if (player_rb.velocity.x > 0 || camera_horizontal_state == RotateState.Right) {
-            camera_horizontal_state = RotateState.Right;
-            if (this.transform.rotation.eulerAngles.y > max_y_rotate)
-                camera_horizontal_state = RotateState.None;
-            else
-                this.transform.Rotate(0.0f, rotate_speed * Time.deltaTime, 0.0f);
-        } else if (player_rb.velocity.x < 0 || camera_horizontal_state == RotateState.Left) {
-            camera_horizontal_state = RotateState.Left;
-            if (this.transform.rotation.eulerAngles.y < min_y_rotate)
-                camera_horizontal_state = RotateState.None;
-            else
-                this.transform.Rotate(0.0f, -rotate_speed * Time.deltaTime, 0.0f);
-        }
+        // // horizontal rotation
+        // if (player_rb.velocity.x > 0 || camera_horizontal_state == RotateState.Right) {
+        //     camera_horizontal_state = RotateState.Right;
+        //     if (this.transform.rotation.eulerAngles.y > max_y_rotate)
+        //         camera_horizontal_state = RotateState.None;
+        //     else
+        //         this.transform.Rotate(0.0f, rotate_speed * Time.deltaTime, 0.0f);
+        // } else if (player_rb.velocity.x < 0 || camera_horizontal_state == RotateState.Left) {
+        //     camera_horizontal_state = RotateState.Left;
+        //     if (this.transform.rotation.eulerAngles.y < min_y_rotate)
+        //         camera_horizontal_state = RotateState.None;
+        //     else
+        //         this.transform.Rotate(0.0f, -rotate_speed * Time.deltaTime, 0.0f);
+        // }
     }
 }

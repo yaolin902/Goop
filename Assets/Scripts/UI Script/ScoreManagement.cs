@@ -15,7 +15,7 @@ public class ScoreManagement : MonoBehaviour
 
     void Update()
     {
-        score_board.text = "Score: " + score.ToString();
+        score_board.text = score.ToString();
     }
 
     void update_score(int points) {

@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         can_player_shoot_sfx = true;
         max_player_distance = 1.25f;
         projectile_player_speed = 2.5f;
-        bullet_speed = 5f;
+        bullet_speed = 7f;
         player_projectile_attack_cooldown = 1.5f;
         dash_attack_timer = player_dash_attack_duration;
 
