@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D player_rb;
     private Animator player_animator;
     private BoxCollider2D player_collider;
+    public GameObject cooldown_bar;
     
     private void Start() {
         // default player attribute
@@ -163,6 +164,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator attack_cooldown(float time) {
         player_attack_state = AttackStates.AttackCooldown;
+        cooldown_bar.SendMessage("set_max_value", time);
         yield return new WaitForSeconds(time);
         player_attack_state = AttackStates.None;
         can_player_shoot_sfx = true;
