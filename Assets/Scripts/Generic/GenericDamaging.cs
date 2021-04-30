@@ -38,7 +38,10 @@ public class GenericDamaging : MonoBehaviour
 		if (this.gameObject == GameObject.FindWithTag("Player")) {
 			Rigidbody2D rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
 			rb.velocity = Vector3.zero;
-			rb.AddForce(Vector2.one * knockback_force, ForceMode2D.Impulse);
+			if ((collision.gameObject.transform.position - this.gameObject.transform.position).x < 0f)
+				rb.AddForce(Vector2.one * knockback_force, ForceMode2D.Impulse);
+			else
+				rb.AddForce((Vector2.left + Vector2.up) * knockback_force, ForceMode2D.Impulse);
 		}
 
 		// play sfx

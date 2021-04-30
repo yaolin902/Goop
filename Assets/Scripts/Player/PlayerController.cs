@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
         Idle,
         Walking,
         Jumping,
+        InAir,
         Falling
     }
 
@@ -32,7 +33,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public States player_state;
     [HideInInspector] public AttackStates player_attack_state;
     private float dash_attack_timer;
-    private bool is_player_facing_right;
+    [HideInInspector] public bool is_player_facing_right;
     private bool can_player_shoot_sfx;
 
     // unity object
@@ -74,16 +75,19 @@ public class PlayerController : MonoBehaviour
     private void Update() {
         // player movement finite state machine
         // changing state
+        Debug.Log(player_state);
         if (player_state == States.Idle && Input.GetAxis("Horizontal") != 0) {
             player_state = States.Walking;
-        } else if ((player_state == States.Idle || player_state == States.Walking)) {
-            if (Input.GetKeyDown(KeyCode.Space)) {
+        } else if ((player_state == States.Idle || player_state == States.Walking || player_state == States.InAir)) {
+            if (Input.GetKeyDown(KeyCode.Space) && player_state != States.InAir) {
                 player_state = States.Jumping;
             } else if (Input.GetKeyDown(KeyCode.DownArrow) && is_player_on_platform()) {
                 StartCoroutine(fall_down());
                 player_state = States.Falling;
             } else if (player_rb.velocity.y < -0.1f) {
                 player_state = States.Falling;
+            } else if (player_rb.velocity.y > 0.1f) {
+                player_state = States.InAir;
             }
         } else if (player_state == States.Falling && (is_player_on_platform() || is_player_on_ground())) {
             player_state = States.Idle;

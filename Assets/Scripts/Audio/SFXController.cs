@@ -23,6 +23,7 @@ public class SFXController : Singleton<SFXController>
     void Start()
     {
         sfxSource = GetComponent<AudioSource>();
+        sfxSource.ignoreListenerPause = true;
         // if (gameObject.tag == "Player")
         // {
         //     isPlayer = true;
@@ -79,6 +80,6 @@ public class SFXController : Singleton<SFXController>
     // }
     public void play(string audio_name) {
         sfxSource.clip = audio_array[audio_name];
-        sfxSource.Play();
+        sfxSource.PlayOneShot(audio_array[audio_name], 1f);
     }
 }

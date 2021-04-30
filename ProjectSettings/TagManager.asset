@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - SFX
   - Enemy
+  - PlayerGroup
   layers:
   - Default
   - TransparentFX
