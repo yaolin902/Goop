@@ -1,0 +1,1834 @@
+fileFormatVersion: 2
+guid: 6a17dda9b588d7a7b930f87b8c9e701c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5005994629034695760
+    second: mousgician_idlev2_trans_0
+  - first:
+      213: -770410195755629828
+    second: mousgician_idlev2_trans_1
+  - first:
+      213: 641344450933653402
+    second: mousgician_idlev2_trans_2
+  - first:
+      213: 3066281520012402431
+    second: mousgician_idlev2_trans_3
+  - first:
+      213: 5890891565938523870
+    second: mousgician_idlev2_trans_4
+  - first:
+      213: 1872795941285137921
+    second: mousgician_idlev2_trans_5
+  - first:
+      213: -7971462259499984777
+    second: mousgician_idlev2_trans_6
+  - first:
+      213: 4487376770002186668
+    second: mousgician_idlev2_trans_7
+  - first:
+      213: -3309959576957207816
+    second: mousgician_idlev2_trans_8
+  - first:
+      213: 6758513608135551996
+    second: mousgician_idlev2_trans_9
+  - first:
+      213: -385480917096272095
+    second: mousgician_idlev2_trans_10
+  - first:
+      213: 5276879548963176863
+    second: mousgician_idlev2_trans_11
+  - first:
+      213: 483907671578268073
+    second: mousgician_idlev2_trans_12
+  - first:
+      213: 5199216827187402355
+    second: mousgician_idlev2_trans_13
+  - first:
+      213: 3956154225985799012
+    second: mousgician_idlev2_trans_14
+  - first:
+      213: -2425986232451852718
+    second: mousgician_idlev2_trans_15
+  - first:
+      213: -6305087315155290000
+    second: mousgician_idlev2_trans_16
+  - first:
+      213: 6321949277742075439
+    second: mousgician_idlev2_trans_17
+  - first:
+      213: 8709341833690614265
+    second: mousgician_idlev2_trans_18
+  - first:
+      213: 7377906098834748653
+    second: mousgician_idlev2_trans_19
+  - first:
+      213: 3787401802405508071
+    second: mousgician_idlev2_trans_20
+  - first:
+      213: 4115929457235676559
+    second: mousgician_idlev2_trans_21
+  - first:
+      213: 7830330527182958255
+    second: mousgician_idlev2_trans_22
+  - first:
+      213: -3802085036096289940
+    second: mousgician_idlev2_trans_23
+  - first:
+      213: 8403196282243909770
+    second: mousgician_idlev2_trans_24
+  - first:
+      213: -1407770958233750877
+    second: mousgician_idlev2_trans_25
+  - first:
+      213: -2845072615768207693
+    second: mousgician_idlev2_trans_26
+  - first:
+      213: 3784063435897184019
+    second: mousgician_idlev2_trans_27
+  - first:
+      213: -7287689687382748591
+    second: mousgician_idlev2_trans_28
+  - first:
+      213: 1026472927052692872
+    second: mousgician_idlev2_trans_29
+  - first:
+      213: -1766692196478634240
+    second: mousgician_idlev2_trans_30
+  - first:
+      213: 5759599932696706291
+    second: mousgician_idlev2_trans_31
+  - first:
+      213: -929144276249253096
+    second: mousgician_idlev2_trans_32
+  - first:
+      213: -5963964923016180020
+    second: mousgician_idlev2_trans_33
+  - first:
+      213: -2414000491076266118
+    second: mousgician_idlev2_trans_34
+  - first:
+      213: 8109892613291212803
+    second: mousgician_idlev2_trans_35
+  - first:
+      213: -6001047852573044898
+    second: mousgician_idlev2_trans_36
+  - first:
+      213: -1516031403263667537
+    second: mousgician_idlev2_trans_37
+  - first:
+      213: 7849263776545310275
+    second: mousgician_idlev2_trans_38
+  - first:
+      213: 737617378683054978
+    second: mousgician_idlev2_trans_39
+  - first:
+      213: 4521733605698164358
+    second: mousgician_idlev2_trans_40
+  - first:
+      213: 9179874992104818556
+    second: mousgician_idlev2_trans_41
+  - first:
+      213: -3364605599816853213
+    second: mousgician_idlev2_trans_42
+  - first:
+      213: 5207283490652624134
+    second: mousgician_idlev2_trans_43
+  - first:
+      213: 57008654424158692
+    second: mousgician_idlev2_trans_44
+  - first:
+      213: -1290587674063426211
+    second: mousgician_idlev2_trans_45
+  - first:
+      213: -6006322789936336786
+    second: mousgician_idlev2_trans_46
+  - first:
+      213: -4718467967627031341
+    second: mousgician_idlev2_trans_47
+  - first:
+      213: -618662150180026018
+    second: mousgician_idlev2_trans_48
+  - first:
+      213: -4382674474777614948
+    second: mousgician_idlev2_trans_49
+  - first:
+      213: 7219988646183659835
+    second: mousgician_idlev2_trans_50
+  - first:
+      213: -9062029874368504043
+    second: mousgician_idlev2_trans_51
+  - first:
+      213: 4348144675989873735
+    second: mousgician_idlev2_trans_52
+  - first:
+      213: 4708238524559067157
+    second: mousgician_idlev2_trans_53
+  - first:
+      213: -3585784093095673996
+    second: mousgician_idlev2_trans_54
+  - first:
+      213: -4433615003252084008
+    second: mousgician_idlev2_trans_55
+  - first:
+      213: -123497699046637505
+    second: mousgician_idlev2_trans_56
+  - first:
+      213: -3889544236283997543
+    second: mousgician_idlev2_trans_57
+  - first:
+      213: 8329550377747170218
+    second: mousgician_idlev2_trans_58
+  - first:
+      213: -3175563254443753694
+    second: mousgician_idlev2_trans_59
+  - first:
+      213: 8359503128343481995
+    second: mousgician_idlev2_trans_60
+  - first:
+      213: 3781025056796957543
+    second: mousgician_idlev2_trans_61
+  - first:
+      213: -1229459685521035970
+    second: mousgician_idlev2_trans_62
+  - first:
+      213: 1375089876812672109
+    second: mousgician_idlev2_trans_63
+  - first:
+      213: 1481968770574282898
+    second: mousgician_idlev2_trans_64
+  - first:
+      213: -1021895429199936463
+    second: mousgician_idlev2_trans_65
+  - first:
+      213: 6155890854174549437
+    second: mousgician_idlev2_trans_66
+  - first:
+      213: -7132165886946923821
+    second: mousgician_idlev2_trans_67
+  - first:
+      213: -3550231908882493228
+    second: mousgician_idlev2_trans_68
+  - first:
+      213: 2849022361829795713
+    second: mousgician_idlev2_trans_69
+  - first:
+      213: 4941481522508216561
+    second: mousgician_idlev2_trans_70
+  - first:
+      213: -3287310223848126193
+    second: mousgician_idlev2_trans_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8458
+        width: 391
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c502b979dd87540800000000000000
+      internalID: 5005994629034695760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_1
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 8458
+        width: 393
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf285ae3204fe45f0800000000000000
+      internalID: -770410195755629828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_2
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 8458
+        width: 391
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7190516386e800800000000000000
+      internalID: 641344450933653402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_3
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 8458
+        width: 395
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe1fadebce9d8a20800000000000000
+      internalID: 3066281520012402431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_4
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 8458
+        width: 391
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede3c1efaa6a0c150800000000000000
+      internalID: 5890891565938523870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7860
+        width: 391
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e08117cf18df910800000000000000
+      internalID: 1872795941285137921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 7860
+        width: 395
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77812124f4daf5190800000000000000
+      internalID: -7971462259499984777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_7
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 7860
+        width: 391
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1f15da56d564e30800000000000000
+      internalID: 4487376770002186668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_8
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 7860
+        width: 386
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa309a3d49a012d0800000000000000
+      internalID: -3309959576957207816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_9
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 7860
+        width: 382
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb209681501bcd50800000000000000
+      internalID: 6758513608135551996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 7262
+        width: 384
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fe8c4f52f76aaf0800000000000000
+      internalID: -385480917096272095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_11
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 7262
+        width: 382
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91497eddfd3b3940800000000000000
+      internalID: 5276879548963176863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_12
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 7258
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a15284a67f27b600800000000000000
+      internalID: 483907671578268073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_13
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 7258
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3761dbe5824572840800000000000000
+      internalID: 5199216827187402355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_14
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 7258
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4634b84de4517e630800000000000000
+      internalID: 3956154225985799012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 6660
+        width: 373
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25618b0006a255ed0800000000000000
+      internalID: -2425986232451852718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_16
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 6660
+        width: 369
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f85e1e74df78a0800000000000000
+      internalID: -6305087315155290000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_17
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 6660
+        width: 373
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8adb7f531cb750800000000000000
+      internalID: 6321949277742075439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_18
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 6660
+        width: 369
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90490f04ccdd870800000000000000
+      internalID: 8709341833690614265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_19
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 6660
+        width: 373
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4bb3fc186936660800000000000000
+      internalID: 7377906098834748653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_20
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 6058
+        width: 377
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3fd0e6fdd8f8430800000000000000
+      internalID: 3787401802405508071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_21
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 6058
+        width: 378
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d4913c808be1930800000000000000
+      internalID: 4115929457235676559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_22
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 6058
+        width: 373
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae23aaa02ceaac60800000000000000
+      internalID: 7830330527182958255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_23
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 6058
+        width: 378
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6307a1ddc74c3bc0800000000000000
+      internalID: -3802085036096289940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_24
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 6058
+        width: 391
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8808052f762e9470800000000000000
+      internalID: 8403196282243909770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5460
+        width: 391
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2bd5da5c7967ce0800000000000000
+      internalID: -1407770958233750877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_26
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 5460
+        width: 393
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bec1f0a7854488d0800000000000000
+      internalID: -2845072615768207693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_27
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 5460
+        width: 391
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f123865a1b38430800000000000000
+      internalID: 3784063435897184019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_28
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 5460
+        width: 395
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152164657dcecda90800000000000000
+      internalID: -7287689687382748591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_29
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 5460
+        width: 391
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88df78c40b3ce3e00800000000000000
+      internalID: 1026472927052692872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 4858
+        width: 391
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007bf61cec27b77e0800000000000000
+      internalID: -1766692196478634240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_31
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 4858
+        width: 395
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc30c48f953eef40800000000000000
+      internalID: 5759599932696706291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_32
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 4863
+        width: 382
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b631d14340b13f0800000000000000
+      internalID: -929144276249253096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_33
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 4863
+        width: 386
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce0bbe308dbb3da0800000000000000
+      internalID: -5963964923016180020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_34
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 4863
+        width: 382
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77d7c1e75fbf7ed0800000000000000
+      internalID: -2414000491076266118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_35
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 4261
+        width: 384
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30089cd1d502c8070800000000000000
+      internalID: 8109892613291212803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_36
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 4261
+        width: 369
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f4343e5cef7bca0800000000000000
+      internalID: -6001047852573044898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_37
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 4261
+        width: 373
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2d1249879f5fae0800000000000000
+      internalID: -1516031403263667537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_38
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 4261
+        width: 369
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346035d41df2eec60800000000000000
+      internalID: 7849263776545310275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_39
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 4261
+        width: 373
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bee8c091b8c3a00800000000000000
+      internalID: 737617378683054978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3659
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d598d1cc60ce30800000000000000
+      internalID: 4521733605698164358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_41
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 3659
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7746e21ba7756f70800000000000000
+      internalID: 9179874992104818556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_42
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 3659
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32950ad88058e41d0800000000000000
+      internalID: -3364605599816853213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_43
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 3659
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6051b11debcf34840800000000000000
+      internalID: 5207283490652624134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_44
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 3659
+        width: 377
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e13314b1198ac000800000000000000
+      internalID: 57008654424158692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_45
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3061
+        width: 377
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5da3f72959e61ee0800000000000000
+      internalID: -1290587674063426211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_46
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 3061
+        width: 378
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f283de3145aca0800000000000000
+      internalID: -6006322789936336786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_47
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3061
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc08890262a48eb0800000000000000
+      internalID: -4718467967627031341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_48
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 3061
+        width: 395
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e594a8e5d021a67f0800000000000000
+      internalID: -618662150180026018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_49
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 3061
+        width: 391
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9565bc19cc9d23c0800000000000000
+      internalID: -4382674474777614948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2459
+        width: 391
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39612aab6d823460800000000000000
+      internalID: 7219988646183659835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_51
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2459
+        width: 394
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f994a87d33d3280800000000000000
+      internalID: -9062029874368504043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_52
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2459
+        width: 391
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e16c9b86b75c30800000000000000
+      internalID: 4348144675989873735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_53
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 2459
+        width: 395
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51807262ef5075140800000000000000
+      internalID: 4708238524559067157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_54
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 2459
+        width: 391
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f39c99d5cbc3ec0800000000000000
+      internalID: -3585784093095673996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1861
+        width: 391
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2315415a2a872c0800000000000000
+      internalID: -4433615003252084008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_56
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1861
+        width: 382
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f304fbd3f7f394ef0800000000000000
+      internalID: -123497699046637505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_57
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1861
+        width: 382
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992df12ff10950ac0800000000000000
+      internalID: -3889544236283997543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_58
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1861
+        width: 386
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3475ccfe1889370800000000000000
+      internalID: 8329550377747170218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_59
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 1861
+        width: 382
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fb8118b022ee3d0800000000000000
+      internalID: -3175563254443753694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1259
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0eaffdcbe20470800000000000000
+      internalID: 8359503128343481995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_61
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1259
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bdb35a146e87430800000000000000
+      internalID: 3781025056796957543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_62
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1259
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dead21ee410fee0800000000000000
+      internalID: -1229459685521035970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_63
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1259
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca7a915fc451310800000000000000
+      internalID: 1375089876812672109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_64
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 1259
+        width: 373
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2907d4abeb2019410800000000000000
+      internalID: 1481968770574282898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 659
+        width: 373
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13441f8758f71d1f0800000000000000
+      internalID: -1021895429199936463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_66
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 659
+        width: 369
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56627dd1e1e6550800000000000000
+      internalID: 6155890854174549437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_67
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 659
+        width: 373
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daae55e9e4750d90800000000000000
+      internalID: -7132165886946923821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_68
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 659
+        width: 378
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d05dc883ea0bbec0800000000000000
+      internalID: -3550231908882493228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_69
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 659
+        width: 377
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187620a4eb2c98720800000000000000
+      internalID: 2849022361829795713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_70
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 59
+        width: 377
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8324d734ba39440800000000000000
+      internalID: 4941481522508216561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_idlev2_trans_71
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 59
+        width: 378
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09c501b4c02162d0800000000000000
+      internalID: -3287310223848126193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

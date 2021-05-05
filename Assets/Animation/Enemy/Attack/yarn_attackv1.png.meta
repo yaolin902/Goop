@@ -1,0 +1,802 @@
+fileFormatVersion: 2
+guid: f8ca2c18c0ac01664bb12edd0220fee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9146707749908371493
+    second: yarn_attackv1_0
+  - first:
+      213: -4637703988257115500
+    second: yarn_attackv1_1
+  - first:
+      213: 1466749258682019214
+    second: yarn_attackv1_2
+  - first:
+      213: -1730338855893442400
+    second: yarn_attackv1_3
+  - first:
+      213: 2460890675051703774
+    second: yarn_attackv1_4
+  - first:
+      213: 5677310602273834968
+    second: yarn_attackv1_5
+  - first:
+      213: 6458301782678967091
+    second: yarn_attackv1_6
+  - first:
+      213: -1863409519878204173
+    second: yarn_attackv1_7
+  - first:
+      213: -7730534006813232379
+    second: yarn_attackv1_8
+  - first:
+      213: -2583886647790015896
+    second: yarn_attackv1_9
+  - first:
+      213: -1754122201566140855
+    second: yarn_attackv1_10
+  - first:
+      213: 1248706171216939289
+    second: yarn_attackv1_11
+  - first:
+      213: 3972653399189894804
+    second: yarn_attackv1_12
+  - first:
+      213: -8217688884629374165
+    second: yarn_attackv1_13
+  - first:
+      213: 7796375848718062068
+    second: yarn_attackv1_14
+  - first:
+      213: -9080559220813973181
+    second: yarn_attackv1_15
+  - first:
+      213: -138747756061177635
+    second: yarn_attackv1_16
+  - first:
+      213: 3025206747480395194
+    second: yarn_attackv1_17
+  - first:
+      213: 201323590641072760
+    second: yarn_attackv1_18
+  - first:
+      213: -1497605001930848583
+    second: yarn_attackv1_19
+  - first:
+      213: -2226897822116575094
+    second: yarn_attackv1_20
+  - first:
+      213: -3406330334457928477
+    second: yarn_attackv1_21
+  - first:
+      213: 5898816191846285160
+    second: yarn_attackv1_22
+  - first:
+      213: -1118100607795630604
+    second: yarn_attackv1_23
+  - first:
+      213: -3831319136784662770
+    second: yarn_attackv1_24
+  - first:
+      213: -1238762282281325726
+    second: yarn_attackv1_25
+  - first:
+      213: 5857230278071877305
+    second: yarn_attackv1_26
+  - first:
+      213: 2346386922453550688
+    second: yarn_attackv1_27
+  - first:
+      213: 1289820876958885280
+    second: yarn_attackv1_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yarn_attackv1_0
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 4989
+        width: 357
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528d999bc32afee70800000000000000
+      internalID: 9146707749908371493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_1
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 4989
+        width: 354
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492b5865bc093afb0800000000000000
+      internalID: -4637703988257115500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_2
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 4989
+        width: 355
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d2f4afda0fa5410800000000000000
+      internalID: 1466749258682019214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_3
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 4989
+        width: 358
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a06a617af99cf7e0800000000000000
+      internalID: -1730338855893442400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_4
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 4989
+        width: 354
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2785d707d62220800000000000000
+      internalID: 2460890675051703774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_5
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 4189
+        width: 357
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d74710c9ebd9ce40800000000000000
+      internalID: 5677310602273834968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_6
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 4189
+        width: 354
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3331ad8f04f70a950800000000000000
+      internalID: 6458301782678967091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_7
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 4189
+        width: 355
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f414981ae6d326e0800000000000000
+      internalID: -1863409519878204173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_8
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 4189
+        width: 358
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503f1d76740a7b490800000000000000
+      internalID: -7730534006813232379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_9
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 4189
+        width: 354
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ae99aa8c0342cd0800000000000000
+      internalID: -2583886647790015896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_10
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 3389
+        width: 357
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9462603c62b18a7e0800000000000000
+      internalID: -1754122201566140855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_11
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 3389
+        width: 354
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919493495ab445110800000000000000
+      internalID: 1248706171216939289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_12
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 3389
+        width: 355
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4963672f733b12730800000000000000
+      internalID: 3972653399189894804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_13
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 3399
+        width: 322
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b7df4af77e4fd80800000000000000
+      internalID: -8217688884629374165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_14
+      rect:
+        serializedVersion: 2
+        x: 5565
+        y: 3399
+        width: 325
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f15646078a423c60800000000000000
+      internalID: 7796375848718062068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_15
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2645
+        width: 343
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493c71ef7f5bf180800000000000000
+      internalID: -9080559220813973181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_16
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2645
+        width: 342
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd84796a6a1131ef0800000000000000
+      internalID: -138747756061177635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_17
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 2656
+        width: 322
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd0fa33281bbf920800000000000000
+      internalID: 3025206747480395194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_18
+      rect:
+        serializedVersion: 2
+        x: 4355
+        y: 2656
+        width: 325
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a31113dbe3bc200800000000000000
+      internalID: 201323590641072760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_19
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 2662
+        width: 358
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b640167f20773be0800000000000000
+      internalID: -1497605001930848583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_20
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1862
+        width: 360
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8886a9ba387811e0800000000000000
+      internalID: -2226897822116575094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_21
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1859
+        width: 369
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e46ffabb984ab0d0800000000000000
+      internalID: -3406330334457928477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_22
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 1859
+        width: 369
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ff15eb21eccd150800000000000000
+      internalID: 5898816191846285160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_23
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 1853
+        width: 362
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd6131db65bb70f0800000000000000
+      internalID: -1118100607795630604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_24
+      rect:
+        serializedVersion: 2
+        x: 5542
+        y: 1853
+        width: 360
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f3bc65b8b64dac0800000000000000
+      internalID: -3831319136784662770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1030
+        width: 316
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b287b74480fcee0800000000000000
+      internalID: -1238762282281325726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_26
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1030
+        width: 316
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bef22ca7ef094150800000000000000
+      internalID: 5857230278071877305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_27
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1057
+        width: 395
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066477a697a009020800000000000000
+      internalID: 2346386922453550688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yarn_attackv1_28
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1057
+        width: 392
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5640bf04d56e110800000000000000
+      internalID: 1289820876958885280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

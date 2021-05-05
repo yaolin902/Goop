@@ -28,21 +28,28 @@ public class CameraMovement : MonoBehaviour
     Vector3 v = Vector3.zero;
     RotateState camera_vertical_state = RotateState.None;
     RotateState camera_horizontal_state = RotateState.None;
+    public float min_y_pos = - 2.87f;
+    public float max_y_pos = 3.14f;
+    public float min_x_pos = - 9.07f;
+    public float max_x_pos = 5.38f;
+    float fixed_z;
 
     void Start() {
         camera = GetComponent<Camera>();
+        fixed_z = this.transform.position.z;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //transform.position = new Vector3(player.position.x, player.position.y + y_offset, transform.position.z);
-        // smoothier camera movement
+        // smoothier camera movement with camera lock
         Vector3 p = camera.WorldToViewportPoint(player.position);
         Vector3 change = player.position - camera.ViewportToWorldPoint(new Vector3(smooth_speed, smooth_speed, p.z));
         Vector3 d = transform.position + change;
         d.y += y_offset;
-        transform.position = Vector3.SmoothDamp(transform.position, d, ref v, damp_time);
+        Vector3 limit = new Vector3(Mathf.Clamp(player.position.x, min_x_pos, max_x_pos), Mathf.Clamp(player.position.y, min_y_pos, max_y_pos), fixed_z);
+        transform.position = Vector3.SmoothDamp(limit, d, ref v, damp_time);
 
         // rotate camera
         // vertical rotation

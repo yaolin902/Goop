@@ -73,10 +73,15 @@ public class PlayerController : MonoBehaviour
         player_animator = player.GetComponent<Animator>();
     }
 
-    private void Update() {
+    private void FixedUpdate() {
+        // test
+        if (Input.GetKeyDown(KeyCode.T)) {
+            player.transform.Translate(new Vector3(10f, 10f, 0f) * Time.deltaTime, Space.Self);
+        }
+
         // player movement finite state machine
         // changing state
-        Debug.Log(player_state);
+        //Debug.Log(player_state);
         if (player_state == States.Idle && Input.GetAxis("Horizontal") != 0) {
             player_state = States.Walking;
         } else if ((player_state == States.Idle || player_state == States.Walking || player_state == States.InAir)) {
@@ -111,6 +116,7 @@ public class PlayerController : MonoBehaviour
         
         // player attack finite state machine
         // changing state
+        //Debug.Log(player_attack_state);
         if (player_attack_state == AttackStates.None && Input.GetKeyDown(KeyCode.Z) &&
             player_state != States.Jumping && player_state != States.Falling) {
             player_attack_state = AttackStates.DashAttack;
@@ -158,7 +164,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator fall_down() {
         player_collider.enabled = false;
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.17f);
         player_collider.enabled = true;
     }
 

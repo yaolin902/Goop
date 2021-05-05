@@ -261,9 +261,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Controls:
-
-'
+  m_Text: "Controls:\n\n\t\u2190 \t      Go Left\n\t\u2192 \t      Go Right\n\t\u2193
+    \t          Go Down\n\tSpace \t  Jump\n\tZ\t          Dash Attack\n\tX\t         
+    Shoot Projectile\n\tEsc\t      Pause\n"
 --- !u!222 &318371102
 CanvasRenderer:
   m_ObjectHideFlags: 0

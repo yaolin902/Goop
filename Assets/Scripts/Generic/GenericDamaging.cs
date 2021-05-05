@@ -37,11 +37,13 @@ public class GenericDamaging : MonoBehaviour
 		// take knockback
 		if (this.gameObject == GameObject.FindWithTag("Player")) {
 			Rigidbody2D rb = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
-			rb.velocity = Vector3.zero;
-			if ((collision.gameObject.transform.position - this.gameObject.transform.position).x < 0f)
-				rb.AddForce(Vector2.one * knockback_force, ForceMode2D.Impulse);
-			else
-				rb.AddForce((Vector2.left + Vector2.up) * knockback_force, ForceMode2D.Impulse);
+			PlayerController script = this.gameObject.transform.parent.gameObject.GetComponent<PlayerController>();
+			if (script.player_attack_state == PlayerController.AttackStates.None || script.player_attack_state == PlayerController.AttackStates.AttackCooldown) {
+				if ((collision.gameObject.transform.position - this.gameObject.transform.position).x < 0f)
+					rb.AddForce((Vector2.right + Vector2.up) * knockback_force, ForceMode2D.Impulse);
+				else
+					rb.AddForce((Vector2.left + Vector2.up) * knockback_force, ForceMode2D.Impulse);
+			}
 		}
 
 		// play sfx
