@@ -73,12 +73,7 @@ public class PlayerController : MonoBehaviour
         player_animator = player.GetComponent<Animator>();
     }
 
-    private void FixedUpdate() {
-        // test
-        if (Input.GetKeyDown(KeyCode.T)) {
-            player.transform.Translate(new Vector3(10f, 10f, 0f) * Time.deltaTime, Space.Self);
-        }
-
+    private void FixedUpdate() { 
         // player movement finite state machine
         // changing state
         //Debug.Log(player_state);
@@ -92,9 +87,9 @@ public class PlayerController : MonoBehaviour
                 player_state = States.Falling;
             } else if (player_rb.velocity.y < -0.1f) {
                 player_state = States.Falling;
-            } else if (player_rb.velocity.y > 0.1f) {
-                player_state = States.InAir;
-            }
+            } // else if (player_rb.velocity.y > 0.1f) {
+            //     player_state = States.InAir;
+            // }
         } else if (player_state == States.Falling && (is_player_on_platform() || is_player_on_ground())) {
             player_state = States.Idle;
         }
@@ -107,7 +102,7 @@ public class PlayerController : MonoBehaviour
         if (player_state == States.Jumping) {
             player_rb.velocity = new Vector2(player_rb.velocity.x, player_jump_force);
             player_animator.SetTrigger("jump");
-            player_state = States.Falling;
+            player_state = States.InAir;
         }
         if (player_state == States.Idle) {
             move_projectile_player();
@@ -137,6 +132,7 @@ public class PlayerController : MonoBehaviour
             shoot_projectile();
             StartCoroutine(attack_cooldown(player_projectile_attack_cooldown));
         }
+        
     }
 
     // player function
