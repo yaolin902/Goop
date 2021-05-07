@@ -79,7 +79,7 @@ public class SFXController : Singleton<SFXController>
     //     Debug.Log("Die Sound");
     // }
     public void play(string audio_name) {
-        sfxSource.clip = audio_array[audio_name];
+        //sfxSource.clip = audio_array[audio_name];
         sfxSource.PlayOneShot(audio_array[audio_name], 1f);
     }
 }
