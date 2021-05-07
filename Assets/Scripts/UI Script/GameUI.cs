@@ -9,6 +9,7 @@ public class GameUI : MonoBehaviour
     public Animator game_pause_animator;
     bool is_game_over;
     void Start() {
+        BackgroundMusic.Instance.stop_bgm();
         Time.timeScale = 1;
         is_game_over = false;
     }
