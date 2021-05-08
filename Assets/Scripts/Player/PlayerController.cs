@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
         Idle,
         Walking,
         Jumping,
+        InAir,
         Falling
     }
 
@@ -32,7 +33,8 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public States player_state;
     [HideInInspector] public AttackStates player_attack_state;
     private float dash_attack_timer;
-    private bool is_player_facing_right;
+    [HideInInspector] public bool is_player_facing_right;
+    private bool can_player_shoot_sfx;
 
     // unity object
     [SerializeField] private LayerMask ground_layer;
@@ -44,20 +46,22 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D player_rb;
     private Animator player_animator;
     private BoxCollider2D player_collider;
+    public GameObject cooldown_bar;
     
     private void Start() {
         // default player attribute
         player_state = States.Idle;
         player_attack_state = AttackStates.None;
-        player_jump_force = 25f;
+        player_jump_force = 20f;
         player_speed = 10f;
         player_dash_attack_speed = 30f;
         player_dash_attack_duration = 0.15f;
         player_dash_attack_cooldown = 1f;
         is_player_facing_right = true;
-        max_player_distance = 2f;
-        projectile_player_speed = 10f;
-        bullet_speed = 5f;
+        can_player_shoot_sfx = true;
+        max_player_distance = 1.25f;
+        projectile_player_speed = 2.5f;
+        bullet_speed = 7f;
         player_projectile_attack_cooldown = 1.5f;
         dash_attack_timer = player_dash_attack_duration;
 
@@ -69,20 +73,23 @@ public class PlayerController : MonoBehaviour
         player_animator = player.GetComponent<Animator>();
     }
 
-    private void Update() {
+    private void FixedUpdate() { 
         // player movement finite state machine
         // changing state
+        //Debug.Log(player_state);
         if (player_state == States.Idle && Input.GetAxis("Horizontal") != 0) {
             player_state = States.Walking;
-        } else if ((player_state == States.Idle || player_state == States.Walking)) {
-            if (Input.GetKeyDown(KeyCode.Space)) {
+        } else if ((player_state == States.Idle || player_state == States.Walking || player_state == States.InAir)) {
+            if (Input.GetKeyDown(KeyCode.Space) && player_state != States.InAir) {
                 player_state = States.Jumping;
             } else if (Input.GetKeyDown(KeyCode.DownArrow) && is_player_on_platform()) {
                 StartCoroutine(fall_down());
                 player_state = States.Falling;
             } else if (player_rb.velocity.y < -0.1f) {
                 player_state = States.Falling;
-            }
+            } // else if (player_rb.velocity.y > 0.1f) {
+            //     player_state = States.InAir;
+            // }
         } else if (player_state == States.Falling && (is_player_on_platform() || is_player_on_ground())) {
             player_state = States.Idle;
         }
@@ -90,15 +97,21 @@ public class PlayerController : MonoBehaviour
         // state function
         if (player_state != States.Idle) {
             move_player(Input.GetAxis("Horizontal"));
+            move_projectile_player();
         }
         if (player_state == States.Jumping) {
             player_rb.velocity = new Vector2(player_rb.velocity.x, player_jump_force);
-            player_state = States.Falling;
+            player_animator.SetTrigger("jump");
+            player_state = States.InAir;
+        }
+        if (player_state == States.Idle) {
+            move_projectile_player();
         }
 
         
         // player attack finite state machine
         // changing state
+        //Debug.Log(player_attack_state);
         if (player_attack_state == AttackStates.None && Input.GetKeyDown(KeyCode.Z) &&
             player_state != States.Jumping && player_state != States.Falling) {
             player_attack_state = AttackStates.DashAttack;
@@ -108,6 +121,10 @@ public class PlayerController : MonoBehaviour
 
         // state function
         if (player_attack_state == AttackStates.DashAttack) {
+            if (can_player_shoot_sfx) {
+                SFXController.Instance.play("player_dash");
+                can_player_shoot_sfx = false;
+            }
             if (dash_attack())
                 StartCoroutine(attack_cooldown(player_dash_attack_cooldown));
         }
@@ -115,6 +132,7 @@ public class PlayerController : MonoBehaviour
             shoot_projectile();
             StartCoroutine(attack_cooldown(player_projectile_attack_cooldown));
         }
+        
     }
 
     // player function
@@ -122,13 +140,17 @@ public class PlayerController : MonoBehaviour
         player_rb.velocity = new Vector2(player_speed * move_x, player_rb.velocity.y);
         player_animator.SetFloat("speed", Mathf.Abs(player_speed * move_x));
 
-        // move projectile player
-        if (Vector2.Distance(projectile_player.transform.position, player.transform.position) > max_player_distance) {
-            projectile_player.transform.position = Vector2.MoveTowards(projectile_player.transform.position, player.transform.position, player_speed * Time.deltaTime);
-        }
-
         if ((move_x < 0f && is_player_facing_right) || (move_x > 0f && !is_player_facing_right))
             flip_player_sprite();
+    }
+
+    private void move_projectile_player() {
+        // projectile player follows movable player
+        if (Vector2.Distance(projectile_player.transform.position, player.transform.position) > max_player_distance) {
+            // projectile_player.transform.position = Vector2.MoveTowards(projectile_player.transform.position, player.transform.position, player_speed * Time.deltaTime);
+            // smoothier follow
+            projectile_player.transform.position = Vector2.Lerp(projectile_player.transform.position, player.transform.position, projectile_player_speed * Time.deltaTime);
+        }
     }
     private void flip_player_sprite() {
         is_player_facing_right = !is_player_facing_right;
@@ -138,14 +160,16 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator fall_down() {
         player_collider.enabled = false;
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.17f);
         player_collider.enabled = true;
     }
 
     private IEnumerator attack_cooldown(float time) {
         player_attack_state = AttackStates.AttackCooldown;
+        cooldown_bar.SendMessage("set_max_value", time);
         yield return new WaitForSeconds(time);
         player_attack_state = AttackStates.None;
+        can_player_shoot_sfx = true;
     }
 
     private bool is_player_on_ground() {
@@ -164,6 +188,8 @@ public class PlayerController : MonoBehaviour
         // spawn bullet
         GameObject bullet = Instantiate(bullet_sprite, projectile_player.transform.position, projectile_player.transform.rotation);
         Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
+
+        SFXController.Instance.play("player_shoot");
 
         // fire direction
         if (is_player_facing_right)

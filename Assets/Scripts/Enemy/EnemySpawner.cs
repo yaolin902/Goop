@@ -33,7 +33,7 @@ public class EnemySpawner : MonoBehaviour
 		// Cancels spawn timer countdown if player is within
 		// specified "safeDistance"
 		if (Vector2.Distance(player.transform.position, this.transform.position) < safeDistance) return;
-		
+
 		// collision detection of other enemy 
 		Collider2D[] hit_collider = Physics2D.OverlapCircleAll(this.transform.position, enemy_distance);
 		if (hit_collider.Length != 1) return;

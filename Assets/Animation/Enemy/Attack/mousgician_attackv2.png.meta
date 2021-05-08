@@ -1,0 +1,1402 @@
+fileFormatVersion: 2
+guid: 79ea33b66e54033a49d4fface2192660
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3960562051884328820
+    second: mousgician_attackv2_0
+  - first:
+      213: 1398498079841985211
+    second: mousgician_attackv2_1
+  - first:
+      213: -5957080130655870736
+    second: mousgician_attackv2_2
+  - first:
+      213: 898423523697714897
+    second: mousgician_attackv2_3
+  - first:
+      213: 672878340038431654
+    second: mousgician_attackv2_4
+  - first:
+      213: 2249049162804709972
+    second: mousgician_attackv2_5
+  - first:
+      213: -5336367175945334858
+    second: mousgician_attackv2_6
+  - first:
+      213: -5253199847825135036
+    second: mousgician_attackv2_7
+  - first:
+      213: -626634274164341528
+    second: mousgician_attackv2_8
+  - first:
+      213: -7897082752388622058
+    second: mousgician_attackv2_9
+  - first:
+      213: 6341005892108688978
+    second: mousgician_attackv2_10
+  - first:
+      213: 1261969307396149162
+    second: mousgician_attackv2_11
+  - first:
+      213: -1869026435543338167
+    second: mousgician_attackv2_12
+  - first:
+      213: 5353443485381322201
+    second: mousgician_attackv2_13
+  - first:
+      213: 657623738621358686
+    second: mousgician_attackv2_14
+  - first:
+      213: -1516426171478004627
+    second: mousgician_attackv2_15
+  - first:
+      213: 8916211455855745629
+    second: mousgician_attackv2_16
+  - first:
+      213: 6438661944375718066
+    second: mousgician_attackv2_17
+  - first:
+      213: -5095193568163955496
+    second: mousgician_attackv2_18
+  - first:
+      213: -4887705812532161578
+    second: mousgician_attackv2_19
+  - first:
+      213: -8663465857329359823
+    second: mousgician_attackv2_20
+  - first:
+      213: -9016256619108333335
+    second: mousgician_attackv2_21
+  - first:
+      213: -515952998757157201
+    second: mousgician_attackv2_22
+  - first:
+      213: -7613432844501761604
+    second: mousgician_attackv2_23
+  - first:
+      213: 5582498810047298172
+    second: mousgician_attackv2_24
+  - first:
+      213: -3822840881003862967
+    second: mousgician_attackv2_25
+  - first:
+      213: 8025745488512914976
+    second: mousgician_attackv2_26
+  - first:
+      213: -8163897132331338055
+    second: mousgician_attackv2_27
+  - first:
+      213: -9003039708487331809
+    second: mousgician_attackv2_28
+  - first:
+      213: 3962660752999501862
+    second: mousgician_attackv2_29
+  - first:
+      213: 1394933046797162891
+    second: mousgician_attackv2_30
+  - first:
+      213: -2334709774002667931
+    second: mousgician_attackv2_31
+  - first:
+      213: 8373589037361948509
+    second: mousgician_attackv2_32
+  - first:
+      213: -7427463304449283038
+    second: mousgician_attackv2_33
+  - first:
+      213: -7108137112950713923
+    second: mousgician_attackv2_34
+  - first:
+      213: 4384956817339387813
+    second: mousgician_attackv2_35
+  - first:
+      213: -4010335281897390705
+    second: mousgician_attackv2_36
+  - first:
+      213: -4984606308224862867
+    second: mousgician_attackv2_37
+  - first:
+      213: -3323947813666447246
+    second: mousgician_attackv2_38
+  - first:
+      213: 3047496627964725252
+    second: mousgician_attackv2_39
+  - first:
+      213: 2130519499039173616
+    second: mousgician_attackv2_40
+  - first:
+      213: 4353571027345575393
+    second: mousgician_attackv2_41
+  - first:
+      213: -6759376664892578545
+    second: mousgician_attackv2_42
+  - first:
+      213: 7660663380312610183
+    second: mousgician_attackv2_43
+  - first:
+      213: -4922216670876056103
+    second: mousgician_attackv2_44
+  - first:
+      213: -8164039851731829489
+    second: mousgician_attackv2_45
+  - first:
+      213: -4225383689555664366
+    second: mousgician_attackv2_46
+  - first:
+      213: 8424720095655584524
+    second: mousgician_attackv2_47
+  - first:
+      213: -6571592125421337806
+    second: mousgician_attackv2_48
+  - first:
+      213: -6814137014556095146
+    second: mousgician_attackv2_49
+  - first:
+      213: 5779443310622222627
+    second: mousgician_attackv2_50
+  - first:
+      213: -2722476644600494347
+    second: mousgician_attackv2_51
+  - first:
+      213: -7089609317133704939
+    second: mousgician_attackv2_52
+  - first:
+      213: 704684204383444034
+    second: mousgician_attackv2_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mousgician_attackv2_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6060
+        width: 390
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88da8a3cc14909c0800000000000000
+      internalID: -3960562051884328820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 6060
+        width: 389
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22c041896786310800000000000000
+      internalID: 1398498079841985211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_2
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 6060
+        width: 370
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f028b1ee23345da0800000000000000
+      internalID: -5957080130655870736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_3
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 6060
+        width: 367
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d66bdb4f67d77c00800000000000000
+      internalID: 898423523697714897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_4
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 6060
+        width: 368
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a39b03094b865900800000000000000
+      internalID: 672878340038431654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 5458
+        width: 363
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a4d5f2c4a363f10800000000000000
+      internalID: 2249049162804709972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_6
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 5458
+        width: 364
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf49b6a35a61f5b0800000000000000
+      internalID: -5336367175945334858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_7
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 5458
+        width: 364
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a2f303292e817b0800000000000000
+      internalID: -5253199847825135036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_8
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 5458
+        width: 364
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4895c927fbd47f0800000000000000
+      internalID: -626634274164341528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_9
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 5458
+        width: 361
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6191306c31de76290800000000000000
+      internalID: -7897082752388622058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4858
+        width: 363
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e1cc54347cff750800000000000000
+      internalID: 6341005892108688978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_11
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 4858
+        width: 364
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf0bcc166a638110800000000000000
+      internalID: 1261969307396149162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_12
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4861
+        width: 364
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943ff910c52ef06e0800000000000000
+      internalID: -1869026435543338167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_13
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 4861
+        width: 364
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d568477c704b4a40800000000000000
+      internalID: 5353443485381322201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_14
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 4871
+        width: 370
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52f3685e49502900800000000000000
+      internalID: 657623738621358686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_15
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 4269
+        width: 367
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca2f07e6294fae0800000000000000
+      internalID: -1516426171478004627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4275
+        width: 374
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5adc88341fbcbb70800000000000000
+      internalID: 8916211455855745629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_17
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4275
+        width: 373
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b03757cce8ba5950800000000000000
+      internalID: 6438661944375718066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_18
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 4275
+        width: 371
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc7bbbf17c3a49b0800000000000000
+      internalID: -5095193568163955496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_19
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 4275
+        width: 373
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3986da5716b2cb0800000000000000
+      internalID: -4887705812532161578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_20
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3675
+        width: 384
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134982a24bf25c780800000000000000
+      internalID: -8663465857329359823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_21
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 3675
+        width: 383
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e888460062dfd280800000000000000
+      internalID: -9016256619108333335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_22
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 3675
+        width: 383
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa638443b77f6d8f0800000000000000
+      internalID: -515952998757157201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_23
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 3675
+        width: 381
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14e266a27a75690800000000000000
+      internalID: -7613432844501761604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_24
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 3675
+        width: 377
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7af8e32715097d40800000000000000
+      internalID: 5582498810047298172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 3076
+        width: 377
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9446ce6197a82fac0800000000000000
+      internalID: -3822840881003862967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_26
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 3076
+        width: 377
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269184effc216f60800000000000000
+      internalID: 8025745488512914976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_27
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 3076
+        width: 376
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b67f84ffc204be80800000000000000
+      internalID: -8163897132331338055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_28
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 3076
+        width: 371
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1050e4d517ce0380800000000000000
+      internalID: -9003039708487331809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_29
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 3076
+        width: 373
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620dae3b5f23ef630800000000000000
+      internalID: 3962660752999501862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2474
+        width: 374
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b895cc3273ccb5310800000000000000
+      internalID: 1394933046797162891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2474
+        width: 374
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e30f294d1799fd0800000000000000
+      internalID: -2334709774002667931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_32
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2474
+        width: 383
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5760134dd6f43470800000000000000
+      internalID: 8373589037361948509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_33
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2474
+        width: 381
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c2d0c1a795ce890800000000000000
+      internalID: -7427463304449283038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_34
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 2474
+        width: 383
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db15dcfc4f2da5d90800000000000000
+      internalID: -7108137112950713923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1874
+        width: 384
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af01fc2efe7adc30800000000000000
+      internalID: 4384956817339387813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_36
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1874
+        width: 377
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d3a4c0f4d6858c0800000000000000
+      internalID: -4010335281897390705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_37
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1874
+        width: 376
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f515e8fe13dab0800000000000000
+      internalID: -4984606308224862867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_38
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1874
+        width: 374
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270a9721317fed1d0800000000000000
+      internalID: -3323947813666447246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_39
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 1874
+        width: 377
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408c90c6902ea4a20800000000000000
+      internalID: 3047496627964725252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_40
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1275
+        width: 374
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbe5474230219d10800000000000000
+      internalID: 2130519499039173616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1275
+        width: 374
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed8d5d78cdfa6c30800000000000000
+      internalID: 4353571027345575393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_42
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1275
+        width: 373
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05630a6cbed132a0800000000000000
+      internalID: -6759376664892578545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_43
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1275
+        width: 371
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7855067a1c4205a60800000000000000
+      internalID: 7660663380312610183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_44
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 1275
+        width: 383
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d54de05406c0bbb0800000000000000
+      internalID: -4922216670876056103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 675
+        width: 384
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d3461820183be80800000000000000
+      internalID: -8164039851731829489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_46
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 675
+        width: 383
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2122e40ebeb6c55c0800000000000000
+      internalID: -4225383689555664366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_47
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 675
+        width: 383
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0365a97a4e9ae470800000000000000
+      internalID: 8424720095655584524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_48
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 675
+        width: 374
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233c18b97c30dc4a0800000000000000
+      internalID: -6571592125421337806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_49
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 675
+        width: 377
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d0b84fc725f61a0800000000000000
+      internalID: -6814137014556095146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_50
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 76
+        width: 377
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292529f115b43050800000000000000
+      internalID: 5779443310622222627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_51
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 76
+        width: 377
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f64a418ae1d73ad0800000000000000
+      internalID: -2722476644600494347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_52
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 76
+        width: 373
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51122ff63e5ac9d90800000000000000
+      internalID: -7089609317133704939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mousgician_attackv2_53
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 76
+        width: 371
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c9a11ec8a87c900800000000000000
+      internalID: 704684204383444034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

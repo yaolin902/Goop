@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Projectile Player
+  - Score
+  - Bullet
+  - SFX
+  - Enemy
+  - PlayerGroup
   layers:
   - Default
   - TransparentFX
@@ -21,7 +26,7 @@ TagManager:
   - EnemyLayer
   - PlayerBullet
   - EnemyBullet
-  - 
+  - Border
   - 
   - 
   - 
