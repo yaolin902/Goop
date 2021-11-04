@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 4065637864846892351}
   - component: {fileID: 1986791776053042478}
   - component: {fileID: 6899104965333223917}
-  - component: {fileID: 6565282937043427840}
   - component: {fileID: -655003828043418466}
   - component: {fileID: 1927493231455112231}
+  - component: {fileID: 7739237663164472449}
   m_Layer: 13
-  m_Name: PlayerBullet Sound
+  m_Name: PlayerBullet Ricochet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 0.97788244, b: 0.4716981, a: 1}
+  m_Color: {r: 1, g: 0.7758143, b: 0.4705882, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6b6ae84088c25f180573e421d9edc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 100
 --- !u!61 &1986791776053042478
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -163,19 +163,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6565282937043427840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111808482780274934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 058ba5835c9fed8f8bba387dea8828ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  decay_time: 2
 --- !u!82 &-655003828043418466
 AudioSource:
   m_ObjectHideFlags: 0
@@ -287,3 +274,15 @@ MonoBehaviour:
   takeDamage: {fileID: 0}
   attack: {fileID: 0}
   death: {fileID: 8300000, guid: 3916a2cde1a1c25578ff42175d7316d5, type: 3}
+--- !u!114 &7739237663164472449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5111808482780274934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c672936957380dd43bcd9e603b7e3072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -62,6 +62,6 @@ public class SFXController : MonoBehaviour
     {
         sfxSource.clip = death;
         AudioSource.PlayClipAtPoint(death, transform.position);
-        Debug.Log("Die Sound");
+        //Debug.Log("Die Sound");
     }
 }
