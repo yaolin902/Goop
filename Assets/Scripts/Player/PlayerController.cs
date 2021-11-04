@@ -80,9 +80,9 @@ public class PlayerController : MonoBehaviour
         if (player_state == States.Idle && Input.GetAxis("Horizontal") != 0) {
             player_state = States.Walking;
         } else if ((player_state == States.Idle || player_state == States.Walking || player_state == States.InAir)) {
-            if (Input.GetKeyDown(KeyCode.Space) && player_state != States.InAir) {
+            if ((Input.GetKeyDown(KeyCode.Space)||Input.GetKeyDown(KeyCode.W)) && player_state != States.InAir) {
                 player_state = States.Jumping;
-            } else if (Input.GetKeyDown(KeyCode.DownArrow) && is_player_on_platform()) {
+            } else if ((Input.GetKeyDown(KeyCode.DownArrow)||Input.GetKeyDown(KeyCode.S)) && is_player_on_platform()) {
                 StartCoroutine(fall_down());
                 player_state = States.Falling;
             } else if (player_rb.velocity.y < -0.1f) {
@@ -112,10 +112,10 @@ public class PlayerController : MonoBehaviour
         // player attack finite state machine
         // changing state
         //Debug.Log(player_attack_state);
-        if (player_attack_state == AttackStates.None && Input.GetKeyDown(KeyCode.Z) &&
+        if (player_attack_state == AttackStates.None && Input.GetMouseButtonDown(1) && //right click to dash 
             player_state != States.Jumping && player_state != States.Falling) {
             player_attack_state = AttackStates.DashAttack;
-        } else if (player_attack_state == AttackStates.None && Input.GetKeyDown(KeyCode.X)) {
+        } else if (player_attack_state == AttackStates.None && Input.GetMouseButtonDown(0)) { //left click to shoot
             player_attack_state = AttackStates.ProjectileAttack;
         }
 
