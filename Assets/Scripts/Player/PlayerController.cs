@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask ground_layer;
     [SerializeField] private LayerMask platform_layer;
     [SerializeField] private GameObject bullet_sprite;
+    [SerializeField] private Vector3 mouseClick;
 
     private GameObject player;
     private GameObject projectile_player;
@@ -61,7 +62,7 @@ public class PlayerController : MonoBehaviour
         can_player_shoot_sfx = true;
         max_player_distance = 1.25f;
         projectile_player_speed = 2.5f;
-        bullet_speed = 7f;
+        bullet_speed = 10f;
         player_projectile_attack_cooldown = 1.5f;
         dash_attack_timer = player_dash_attack_duration;
 
@@ -129,11 +130,12 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(attack_cooldown(player_dash_attack_cooldown));
         }
         if (player_attack_state == AttackStates.ProjectileAttack) {
-            shoot_projectile();
+            mouseClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            shoot_projectile(mouseClick);
             StartCoroutine(attack_cooldown(player_projectile_attack_cooldown));
         }
-        
-    }
+        //RotateProjectilePlayer();
+    } //End of Fixed Update
 
     // player function
     private void move_player(float move_x) {
@@ -151,6 +153,15 @@ public class PlayerController : MonoBehaviour
             // smoothier follow
             projectile_player.transform.position = Vector2.Lerp(projectile_player.transform.position, player.transform.position, projectile_player_speed * Time.deltaTime);
         }
+
+    }
+    private void RotateProjectilePlayer()
+    {
+        Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouse.z = 0.0f;
+        Vector3 dir = (transform.position - mouse).normalized;
+        float rotAngle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+        projectile_player.transform.eulerAngles = new Vector3(0, 0, -rotAngle);
     }
     private void flip_player_sprite() {
         is_player_facing_right = !is_player_facing_right;
@@ -183,7 +194,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // attack functions
-    private void shoot_projectile()
+    private void shoot_projectile(Vector3 target)
     {
         // spawn bullet
         GameObject bullet = Instantiate(bullet_sprite, projectile_player.transform.position, projectile_player.transform.rotation);
@@ -191,11 +202,16 @@ public class PlayerController : MonoBehaviour
 
         SFXController.Instance.play("player_shoot");
 
-        // fire direction
-        if (is_player_facing_right)
-            bullet_rb.velocity = new Vector2(bullet_speed, bullet_rb.velocity.y);
-        else
-            bullet_rb.velocity = new Vector2(-bullet_speed, bullet_rb.velocity.y);
+        //// fire direction
+        //if (is_player_facing_right)
+        //    bullet_rb.velocity = new Vector2(bullet_speed, bullet_rb.velocity.y);
+        //else
+        //    bullet_rb.velocity = new Vector2(-bullet_speed, bullet_rb.velocity.y);
+        Vector3 dir = (target - bullet.transform.position).normalized;
+        bullet_rb.velocity = new Vector2(dir.x * bullet_speed, dir.y * bullet_speed);
+        float rotAngle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+        bullet.transform.eulerAngles = new Vector3(0, 0, -rotAngle);
+
     }
 
     private bool dash_attack() {

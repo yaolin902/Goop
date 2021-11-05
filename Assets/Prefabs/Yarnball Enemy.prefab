@@ -118,6 +118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   knockback_force: 0
+  min_jump: 0
+  min_wait: 0
 --- !u!114 &611547527223601843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +143,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.19610281, y: 0.67844236}

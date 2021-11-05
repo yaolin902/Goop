@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: -7066554034448757741}
   m_Layer: 12
   m_Name: Yarnball Enemy Sound
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,6 +120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   knockback_force: 0
+  min_jump: 0
+  min_wait: 0
 --- !u!114 &611547527223601843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +145,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.007854114, y: 0.09396437}
@@ -354,7 +356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300ffec5120dc7f4db04a2116dd62f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  takeDamage: {fileID: 8300000, guid: 885f105ff1bd0e0ad98bfb334f6282fb, type: 3}
-  attack: {fileID: 0}
-  death: {fileID: 8300000, guid: 3916a2cde1a1c25578ff42175d7316d5, type: 3}
-  isPlayer: 0
+  player_damage: {fileID: 0}
+  player_dash: {fileID: 0}
+  player_shoot: {fileID: 0}
+  player_death: {fileID: 0}
+  enemy_death: {fileID: 0}
+  enemy_attack: {fileID: 0}

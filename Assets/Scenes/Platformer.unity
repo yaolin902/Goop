@@ -6200,6 +6200,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   bullet_sprite: {fileID: 5111808482780274934, guid: db1e6cefc96fc9f72b2222a64d14538b, type: 3}
+  mouseClick: {x: 0, y: 0, z: 0}
   cooldown_bar: {fileID: 1068037450}
 --- !u!1 &1954278854
 GameObject:
@@ -7323,6 +7324,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 18703465}
     m_Modifications:
+    - target: {fileID: 8776047795751302288, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}
+      propertyPath: m_UseOneWay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776047795751302288, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}
+      propertyPath: m_UseOneWayGrouping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8776047796249772889, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}
       propertyPath: m_Name
       value: Table Set
@@ -7370,6 +7379,14 @@ PrefabInstance:
     - target: {fileID: 8776047796249772891, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776047797085544549, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}
+      propertyPath: m_UseOneWayGrouping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776047797085544549, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}
+      propertyPath: m_UseOneWay
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e66f4f90f7302069a1915df756ca902, type: 3}

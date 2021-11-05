@@ -7,11 +7,15 @@ public class BulletCollision : MonoBehaviour
     [SerializeField]
     private float decay_time = 10f;
 
-    void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.layer == 8 || collision.gameObject.layer == 9)
-            Destroy(this.gameObject);
+   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
-
     void Start() {
         StartCoroutine(destory_self());
     }

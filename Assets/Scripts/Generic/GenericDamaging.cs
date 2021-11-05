@@ -16,7 +16,7 @@ public class GenericDamaging : MonoBehaviour
 	public float min_jump;
 	public float min_wait;
 
-	void OnCollisionEnter2D(Collision2D collision)
+	void OnTriggerEnter2D(Collider2D collision)
 	{
 		// When attached object collides with another,
 		// it calls the "takeDamage" from any script attached to.

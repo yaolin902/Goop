@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -1077042275770835810}
   m_Layer: 12
   m_Name: Wizard Enemy Sound
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.118190736, y: -0.35638645}
@@ -151,6 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   knockback_force: 0
+  min_jump: 0
+  min_wait: 0
 --- !u!114 &2207688622515218469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,9 +216,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300ffec5120dc7f4db04a2116dd62f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  takeDamage: {fileID: 8300000, guid: e9b88b3d4b095aee0a97ce1a52b6af08, type: 3}
-  attack: {fileID: 0}
-  death: {fileID: 8300000, guid: e9b88b3d4b095aee0a97ce1a52b6af08, type: 3}
+  player_damage: {fileID: 0}
+  player_dash: {fileID: 0}
+  player_shoot: {fileID: 0}
+  player_death: {fileID: 0}
+  enemy_death: {fileID: 0}
+  enemy_attack: {fileID: 0}
 --- !u!82 &-1077042275770835810
 AudioSource:
   m_ObjectHideFlags: 0
