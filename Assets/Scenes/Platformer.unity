@@ -6188,7 +6188,7 @@ MonoBehaviour:
   player_dash_attack_cooldown: 0
   max_player_distance: 0
   projectile_player_speed: 0
-  bullet_speed: 0
+  bullet_speed: 20
   player_projectile_attack_cooldown: 0
   player_state: 0
   player_attack_state: 0
